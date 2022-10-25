@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5fe038b-506b-468c-90d7-347ed8435840" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici11SensePow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici12Bis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici12Tris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici28While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici2AmpliacioI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici2AmpliacioMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Exercici2Bis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/Exercici5.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FQsd4sVejXGpYSHWfsxdp9hJ2a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "/home/profe/GOOGLE_DRIVE/IdeaProjects/2022-2023/ExercicisUF1/src/main/java",
+    "last_opened_file_path": "/home/profe/GOOGLE_DRIVE/IdeaProjects/2022-2023/ExercicisUF1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editing.templates"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5fe038b-506b-468c-90d7-347ed8435840" name="Changes" comment="" />
+      <created>1664435728267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664435728267</updated>
+      <workItem from="1664435729627" duration="2748000" />
+      <workItem from="1664545250930" duration="611000" />
+      <workItem from="1664735514481" duration="94000" />
+      <workItem from="1664781395349" duration="493000" />
+      <workItem from="1664794066745" duration="3668000" />
+      <workItem from="1664865093758" duration="2072000" />
+      <workItem from="1664958374363" duration="599000" />
+      <workItem from="1665036663976" duration="599000" />
+      <workItem from="1665399222823" duration="4035000" />
+      <workItem from="1665410941804" duration="1002000" />
+      <workItem from="1665470900159" duration="4805000" />
+      <workItem from="1665641060959" duration="6062000" />
+      <workItem from="1665993739998" duration="599000" />
+      <workItem from="1666003996484" duration="599000" />
+      <workItem from="1666073237667" duration="599000" />
+      <workItem from="1666245686743" duration="599000" />
+      <workItem from="1666363715462" duration="595000" />
+      <workItem from="1666633068612" duration="599000" />
+      <workItem from="1666678073318" duration="599000" />
+      <workItem from="1666681659505" duration="4909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

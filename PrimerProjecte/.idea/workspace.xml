@@ -5,20 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ad8bf6-10ed-4628-90df-2ae889cbbb7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lectura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrimeraProva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/QuadratAmbFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_01_01_introduccio/Amanecer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_02_01_alternatives/Divisible1_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_02_01_alternatives/Eleccions2020_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_02_01_alternatives/Eleccions2020_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_02_04_alternatives_switch/Iron4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_02_05_alternatives_modul_hores/HoraValida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_03_00_iniciacio_bucles/DiguesPatata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_03_01_bucles/AmbrosioTriangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_03_01_bucles/BucleNumeroPositiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_03_01_bucles/HarrisonForWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_03_01_bucles/Nota10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_03_01_bucles/ProducteNaturals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_03_01_bucles/SumaPataques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_04_03_strings_simples/JoanBrossa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_04_03_strings_simples/Minecraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/matrius/TaulellEscacsV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/sense_bucles/Decada90.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/sense_bucles/DimensioInversa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/AbansBucle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Boolea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/BucleI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/BucleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/BugEntersTextos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/CondicionalII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/CondicionalIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Expressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Formatejar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf1/Practica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenaIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenaXII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesIX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesVI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesVII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesVIII_EsquemesTractamentSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesVIII_EsquemesTractamentSeqII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/CadenesXI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Joel/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Joel/src/main/java/Eleccions2020.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Joel/src/main/java/Eleccions2020_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/src/main/java/_02_01_alternatives/Eleccions2020.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Joel/src/main/java/Eleccions2020_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Joel/src/main/java/MultiplicaPer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/src/main/java/_01_01_introduccio/MultiplicaPer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Boolea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Condicional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CondicionalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf1/Condicional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CondicionalIII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Expressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lectura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf1/Lectura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Practica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PrimeraProva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf1/PrimeraProva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf1/Variable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,10 +81,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2Ef8uOsfHaNYLUTVcrBTpz92ubL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -43,21 +99,29 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/profe/IdeaProjects/2022-2023/PrimerProjecte&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/profe/IdeaProjects/2022-2023/PrimerProjecte/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/profe/GOOGLE_DRIVE/IdeaProjects/2022-2023/PrimerProjecte&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nf2" />
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Variable" />
+      <option name="MAIN_CLASS_NAME" value="nf1.Variable" />
       <module name="PrimerProjecte" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,6 +149,26 @@
       <workItem from="1663167674159" duration="4000" />
       <workItem from="1663171827457" duration="89000" />
       <workItem from="1663222935191" duration="2956000" />
+      <workItem from="1663653972323" duration="6810000" />
+      <workItem from="1663829794166" duration="3399000" />
+      <workItem from="1664190599953" duration="1249000" />
+      <workItem from="1664219304573" duration="607000" />
+      <workItem from="1664432311010" duration="4399000" />
+      <workItem from="1664545248513" duration="616000" />
+      <workItem from="1664735506363" duration="100000" />
+      <workItem from="1664781393660" duration="495000" />
+      <workItem from="1664794067872" duration="599000" />
+      <workItem from="1664865094563" duration="599000" />
+      <workItem from="1664958376006" duration="599000" />
+      <workItem from="1665036664736" duration="4560000" />
+      <workItem from="1665127926248" duration="51000" />
+      <workItem from="1666004018164" duration="4750000" />
+      <workItem from="1666073235553" duration="7498000" />
+      <workItem from="1666245684031" duration="5805000" />
+      <workItem from="1666363712044" duration="598000" />
+      <workItem from="1666633108385" duration="1815000" />
+      <workItem from="1666678072726" duration="3144000" />
+      <workItem from="1666681656220" duration="1622000" />
     </task>
     <servers />
   </component>
@@ -101,5 +185,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

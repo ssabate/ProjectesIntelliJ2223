@@ -5,13 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5956cb6-a908-41ba-a975-542cdff94608" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MultiplicaPer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuadratAmbFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_01_01_introduccio/Amanecer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02_01_alternatives/Divisible1_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02_01_alternatives/Eleccions2020_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02_01_alternatives/Eleccions2020_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02_04_alternatives_switch/Iron4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02_05_alternatives_modul_hores/HoraValida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_03_00_iniciacio_bucles/DiguesPatata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/AmbrosioTriangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/BucleNumeroPositiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/HarrisonForWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/Nota10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/ProducteNaturals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/SumaPataques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_04_03_strings_simples/JoanBrossa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_04_03_strings_simples/Minecraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrius/TaulellEscacsV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sense_bucles/Decada90.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sense_bucles/DimensioInversa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/AbansBucle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Boolea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/BucleI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/BucleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/BugEntersTextos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/CondicionalII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/CondicionalIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Expressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Formatejar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Practica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenaIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenaXII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesIX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesVI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesVII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesVIII_EsquemesTractamentSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesVIII_EsquemesTractamentSeqII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesXI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Eleccions2020.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Eleccions2020_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02_01_alternatives/Eleccions2020.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Eleccions2020_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplicaPer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_01_01_introduccio/MultiplicaPer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Boolea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Condicional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/CondicionalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Condicional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/CondicionalIII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Expressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Lectura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Lectura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Practica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/PrimeraProva.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/PrimeraProva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Variable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +78,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2EnKqSCpBRqfKzKBrGNjDVVLatj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -39,18 +98,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/profe/IdeaProjects/2022-2023/Joel/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/profe/GOOGLE_DRIVE/IdeaProjects/2022-2023/Joel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +131,31 @@
       <option name="presentableId" value="Default" />
       <updated>1663226136109</updated>
       <workItem from="1663226137389" duration="1176000" />
+      <workItem from="1663661900530" duration="2439000" />
+      <workItem from="1663828009247" duration="2383000" />
+      <workItem from="1664190600469" duration="4245000" />
+      <workItem from="1664219305015" duration="600000" />
+      <workItem from="1664259294281" duration="8191000" />
+      <workItem from="1664289334025" duration="1261000" />
+      <workItem from="1664351666952" duration="1298000" />
+      <workItem from="1664432295238" duration="614000" />
+      <workItem from="1664545250930" duration="611000" />
+      <workItem from="1664735604038" duration="4000" />
+      <workItem from="1664781396234" duration="493000" />
+      <workItem from="1664794068491" duration="1735000" />
+      <workItem from="1664865092619" duration="4892000" />
+      <workItem from="1664958377047" duration="1009000" />
+      <workItem from="1665036662269" duration="2139000" />
+      <workItem from="1665127929175" duration="49000" />
+      <workItem from="1665646561709" duration="1996000" />
+      <workItem from="1665993739478" duration="667000" />
+      <workItem from="1666003995943" duration="1565000" />
+      <workItem from="1666073234425" duration="3322000" />
+      <workItem from="1666245686317" duration="3094000" />
+      <workItem from="1666363714847" duration="596000" />
+      <workItem from="1666633156750" duration="2479000" />
+      <workItem from="1666678069427" duration="819000" />
+      <workItem from="1666681657272" duration="1285000" />
     </task>
     <servers />
   </component>
@@ -76,5 +172,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_03_00_iniciacio_bucles/DiguesPatata.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
