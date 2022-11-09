@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5fe038b-506b-468c-90d7-347ed8435840" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf2/Exercici10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/_04_03_strings_simples/NumerosBinaris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Joel/src/main/java/tipo_problema/bucles_simples/Quadra_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesXII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Joel/src/main/java/tipo_problema/bucles_simples/Quadra_t.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/src/main/java/tipo_problema/bucles_simples/Quadra_t.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +110,7 @@
       <workItem from="1667891162968" duration="9062000" />
       <workItem from="1667994841055" duration="599000" />
       <workItem from="1668002843626" duration="599000" />
+      <workItem from="1668008448147" duration="600000" />
     </task>
     <servers />
   </component>

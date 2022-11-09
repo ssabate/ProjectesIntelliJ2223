@@ -1,20 +1,30 @@
 package tipo_problema.bucles_simples;
 
+import java.util.Scanner;
+
 public class Quadra_t {
 
     public static void main(String[] args) {
-        int m=5, n=4, dim=Integer.max(m, n), cont=0;
+        Scanner ent = new Scanner(System.in);
 
-        for (int inc = 0; inc < dim; inc++) {
-            for (int i = 0; i < m; i++) {
-                for (int j = 0; j < n; j++) {
-                    if(i+inc < m && j+inc < n)
+        int numCasos = ent.nextInt();
+
+        for (; numCasos > 0; numCasos--) {
+
+            int m = ent.nextInt(),
+                    n = ent.nextInt(),
+                    min = Integer.min(m, n),
+                    cont = 0;
+
+            for (int inc = 0; inc < min; inc++) {
+                for (int i = 0; i + inc < m; i++) {
+                    for (int j = 0; j + inc < n; j++) {
                         cont++;
+                    }
                 }
             }
+            System.out.println(cont);
         }
-        System.out.println(cont);
     }
-
 
 }
