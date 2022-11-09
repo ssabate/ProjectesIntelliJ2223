@@ -5,65 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5956cb6-a908-41ba-a975-542cdff94608" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/QuadratAmbFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_01_01_introduccio/Amanecer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_02_01_alternatives/Divisible1_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_02_01_alternatives/Eleccions2020_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_02_01_alternatives/Eleccions2020_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_02_04_alternatives_switch/Iron4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_02_05_alternatives_modul_hores/HoraValida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_03_00_iniciacio_bucles/DiguesPatata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/AmbrosioTriangular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/BucleNumeroPositiu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/HarrisonForWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/Nota10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/ProducteNaturals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_03_01_bucles/SumaPataques.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_04_03_strings_simples/JoanBrossa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_04_03_strings_simples/Minecraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/matrius/TaulellEscacsV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sense_bucles/Decada90.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sense_bucles/DimensioInversa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/AbansBucle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Boolea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/BucleI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/BucleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/BugEntersTextos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/CondicionalII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/CondicionalIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Expressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Formatejar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Practica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenaIV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenaXII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesIX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesVI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesVII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesVIII_EsquemesTractamentSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesVIII_EsquemesTractamentSeqII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesXI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf2/Exercici10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_04_03_strings_simples/NumerosBinaris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tipo_problema/bucles_simples/Quadra_t.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf2/CadenesXII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Eleccions2020.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Eleccions2020_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02_01_alternatives/Eleccions2020.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Eleccions2020_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplicaPer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_01_01_introduccio/MultiplicaPer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Boolea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Condicional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/CondicionalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Condicional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/CondicionalIII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Expressions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Lectura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Lectura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Practica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/PrimeraProva.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/PrimeraProva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf1/Variable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +104,12 @@
       <workItem from="1666363714847" duration="596000" />
       <workItem from="1666633156750" duration="2479000" />
       <workItem from="1666678069427" duration="819000" />
-      <workItem from="1666681657272" duration="1285000" />
+      <workItem from="1666681657272" duration="2024000" />
+      <workItem from="1667459267550" duration="599000" />
+      <workItem from="1667821120325" duration="5034000" />
+      <workItem from="1667891163458" duration="599000" />
+      <workItem from="1667994841685" duration="1814000" />
+      <workItem from="1668002838196" duration="1680000" />
     </task>
     <servers />
   </component>
@@ -186,6 +140,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/_03_00_iniciacio_bucles/DiguesPatata.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tipo_problema/bucles_simples/Quadra_t.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
