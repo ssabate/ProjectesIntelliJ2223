@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5fe038b-506b-468c-90d7-347ed8435840" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici13Cadenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici8Curt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf3/VectorsI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf3/VectorsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nf2/Exercici10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf2/Exercici10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Joel/src/main/java/tipo_problema/bucles_simples/Quadra_t.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/src/main/java/tipo_problema/bucles_simples/Quadra_t.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nf3" />
       <recent name="nf2" />
       <recent name="" />
     </key>
@@ -110,7 +118,12 @@
       <workItem from="1667891162968" duration="9062000" />
       <workItem from="1667994841055" duration="599000" />
       <workItem from="1668002843626" duration="599000" />
-      <workItem from="1668008448147" duration="600000" />
+      <workItem from="1668008448147" duration="1618000" />
+      <workItem from="1668012866804" duration="22000" />
+      <workItem from="1668064174686" duration="12000" />
+      <workItem from="1668064263098" duration="3265000" />
+      <workItem from="1668426225802" duration="599000" />
+      <workItem from="1668496413307" duration="6532000" />
     </task>
     <servers />
   </component>

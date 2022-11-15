@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5956cb6-a908-41ba-a975-542cdff94608" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf3/Exercici13Cadenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf3/Exercici5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf3/Exercici8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf3/Exercici8Curt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf3/VectorsI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf3/VectorsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExercicisUF1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf2/Exercici10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf2/Exercici10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tipo_problema/bucles_simples/Quadra_t.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tipo_problema/bucles_simples/Quadra_t.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +114,12 @@
       <workItem from="1667891163458" duration="599000" />
       <workItem from="1667994841685" duration="1814000" />
       <workItem from="1668002838196" duration="2107000" />
-      <workItem from="1668008444082" duration="1970000" />
+      <workItem from="1668008444082" duration="3163000" />
+      <workItem from="1668012866804" duration="21000" />
+      <workItem from="1668064173049" duration="13000" />
+      <workItem from="1668064261472" duration="1812000" />
+      <workItem from="1668426224193" duration="605000" />
+      <workItem from="1668496412250" duration="599000" />
     </task>
     <servers />
   </component>
@@ -138,11 +150,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/_03_00_iniciacio_bucles/DiguesPatata.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tipo_problema/bucles_simples/Quadra_t.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

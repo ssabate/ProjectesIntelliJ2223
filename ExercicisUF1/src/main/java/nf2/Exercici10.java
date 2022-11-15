@@ -1,16 +1,33 @@
 package nf2;
 
+import java.util.Scanner;
+
 public class Exercici10 {
 
     public static void main(String[] args) {
-        String text="1  2    3 4     5     4 3      2 1";
-        String noEspai="";
+        Scanner ent = new Scanner(System.in);
+        String text = "";
+
+        //Demanem el text a l'usuari
+        System.out.println("Introduix un text acabat en punt ('.'):");
+        do{
+            text += ent.nextLine().trim();
+            if( text.endsWith(".") ) break; //sortim del bucle si el text acaba en punt
+            else text += "\n";              //afegim salt de línia només si no estem
+            // a l'última línia
+        }while(  true  );
+
+        //Eliminem els separadors del text
+        String noEspai="", separadors=" ,'.\n:;-";
         for (int i = 0; i < text.length(); i++) {
             char c=text.charAt(i);
-            if( c != ' ' && c!=','&& c!='\'')
+
+            //if( c != ' ' && c!=',' && c!='\'' && c!='.' && c!='\n')
+            if(!separadors.contains(Character.toString(c))) //c+""
                 noEspai = noEspai + c;
         }
-        System.out.println(text=noEspai);
+        //Copiem el text original sense espais i convertit a minúscules
+        text=noEspai.toLowerCase();
 
 
         int i;
