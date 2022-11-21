@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5956cb6-a908-41ba-a975-542cdff94608" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf3/Exercici1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf3/Exercici9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf3/VectorsIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExercicisUF1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf3/Exercici8Curt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF1/src/main/java/nf3/Exercici8Curt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -115,6 +117,7 @@
       <workItem from="1668496412250" duration="599000" />
       <workItem from="1668668908052" duration="1207000" />
       <workItem from="1669018172252" duration="599000" />
+      <workItem from="1669031952566" duration="599000" />
     </task>
     <servers />
   </component>
