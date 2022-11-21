@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5fe038b-506b-468c-90d7-347ed8435840" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici13Cadenes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici8Curt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf3/VectorsI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf3/VectorsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nf2/Exercici10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf2/Exercici10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nf3/Exercici8Curt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici8Curt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -43,21 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/profe/GOOGLE_DRIVE/IdeaProjects/2022-2023/ExercicisUF1/src/main/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/profe/GOOGLE_DRIVE/IdeaProjects/2022-2023/ExercicisUF1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "/home/profe/GOOGLE_DRIVE/IdeaProjects/2022-2023/ExercicisUF1/src/main/java",
+    "last_opened_file_path": "/home/profe/GOOGLE_DRIVE/IdeaProjects/2022-2023/ExercicisUF1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="nf3" />
@@ -124,6 +119,8 @@
       <workItem from="1668064263098" duration="3265000" />
       <workItem from="1668426225802" duration="599000" />
       <workItem from="1668496413307" duration="6532000" />
+      <workItem from="1668668907477" duration="5394000" />
+      <workItem from="1669018171040" duration="1183000" />
     </task>
     <servers />
   </component>
