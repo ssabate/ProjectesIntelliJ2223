@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5fe038b-506b-468c-90d7-347ed8435840" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici9Bis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimerProjecte/src/main/java/nf3/VectorsIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/Exercici6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nf3/Exercici9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrimerProjecte/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -132,6 +135,17 @@
       <workItem from="1669113612395" duration="652000" />
       <workItem from="1669197459245" duration="599000" />
       <workItem from="1669215104256" duration="142000" />
+      <workItem from="1669573944737" duration="605000" />
+      <workItem from="1669583223434" duration="613000" />
+      <workItem from="1669623810654" duration="599000" />
+      <workItem from="1669631262568" duration="82000" />
+      <workItem from="1669636335837" duration="599000" />
+      <workItem from="1669878194937" duration="1716000" />
+      <workItem from="1669889919702" duration="235000" />
+      <workItem from="1670240123229" duration="599000" />
+      <workItem from="1670839845708" duration="437000" />
+      <workItem from="1670840297256" duration="599000" />
+      <workItem from="1670844745045" duration="16000" />
     </task>
     <servers />
   </component>
