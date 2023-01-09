@@ -24,17 +24,15 @@ public class ModularIII {
 
 
     public static boolean esSolucio(char[][] taulell, boolean torn, Boolean solucio, char c, int i, int j){
-        if(true) solucio=true;
-        else solucio=false;
-        return true;
+
         if(taulell[i][0]==c && taulell[i][1]==c && taulell[i][2]==c ||
                 taulell[0][j]==c && taulell[1][j]==c && taulell[2][j]==c) return true;
 
         boolean esSolucio=true;
         for (int k = 0; k < taulell.length && esSolucio; k++) {
             esSolucio = esSolucio && taulell[i][k]==c;
-            taulell[k][j]
         }
+        return true;
     }
 
 }

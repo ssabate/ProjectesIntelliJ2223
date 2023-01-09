@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5956cb6-a908-41ba-a975-542cdff94608" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/src/main/java/com/iesebre/ModularV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExercicisUF1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/Exercici14.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/Exercici14.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/src/main/java/com/iesebre/ModularIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/src/main/java/com/iesebre/ModularIII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +141,16 @@
       <workItem from="1670844747230" duration="599000" />
       <workItem from="1670915098266" duration="599000" />
       <workItem from="1671088176433" duration="599000" />
+      <workItem from="1671192470682" duration="599000" />
+      <workItem from="1671197203943" duration="404000" />
+      <workItem from="1671200223062" duration="599000" />
+      <workItem from="1671291280817" duration="599000" />
+      <workItem from="1671357611056" duration="228000" />
+      <workItem from="1671374671409" duration="599000" />
+      <workItem from="1671436697253" duration="599000" />
+      <workItem from="1671449706401" duration="599000" />
+      <workItem from="1672686148919" duration="599000" />
+      <workItem from="1673253651429" duration="43000" />
     </task>
     <servers />
   </component>
