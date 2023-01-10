@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>ExercicisUF2</artifactId>
+    <artifactId>UsaBiblioteca</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -14,10 +14,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+
     <dependencies>
         <dependency>
-            <groupId>com.iesebre.library</groupId>
-            <artifactId>MyFirstLibrary</artifactId>
+            <groupId>com.iesebre.dam1.library</groupId>
+            <artifactId>Biblioteca</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

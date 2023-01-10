@@ -1,6 +1,7 @@
 package nf1;
 
-import static nf1.Exercici1.retornaCaracter;
+
+import static nf1.Exercici1.retornaCaracter2;
 
 public class GeneraContrasenya {
 
@@ -13,12 +14,10 @@ public class GeneraContrasenya {
     public static String generaContrasenya(int longitud, char car1, char car2){
         String contrasenya="";
         for (int i = 0; i < longitud; i++) {
-            contrasenya = contrasenya + retornaCaracter(car1, car2);
+            contrasenya = contrasenya + retornaCaracter2(car1, car2);
         }
 
         return contrasenya;
     }
-
-
 
 }

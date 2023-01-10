@@ -3,7 +3,7 @@ package nf1;
 import java.util.Random;
 import java.util.Scanner;
 
-import static nf1.GeneraContrasenya.generaContrasenya;
+
 
 public class Exercici1 {
 
@@ -20,16 +20,16 @@ public class Exercici1 {
 
         char c1='9', c2='6';
 
-/*
+
         for (int i = 0; i < quantitat; i++) {
-            System.out.format("%c", retornaCaracter('9','('));
+            System.out.format("%c", retornaCaracter2('9','('));
         }
-*/
-        System.out.println(generaContrasenya(quantitat,c1,c2));
+
+       // System.out.println(generaContrasenya(quantitat,c1,c2));
     }
 
     //Exercici 1
-    public static char retornaCaracter(){
+    public static char retornaCaracter2(){
         Random r=new Random();
         return (char) (r.nextInt('{' - ' ' + 1 ) + ' ' );
     }
@@ -41,7 +41,7 @@ public class Exercici1 {
     }
 */
     //Exercici 1bis
-    public static char retornaCaracter(char car1, char car2){
+    public static char retornaCaracter2(char car1, char car2){
         Random r=new Random();
 
         if(car1>=car2) return (char) (r.nextInt(car1 - car2 + 1 ) + car2 );

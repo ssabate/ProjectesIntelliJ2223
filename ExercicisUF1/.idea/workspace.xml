@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5fe038b-506b-468c-90d7-347ed8435840" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/src/main/java/com/iesebre/ModularV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/Exercici14.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/Exercici14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Joel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/src/main/java/com/iesebre/ModularIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF2/src/main/java/com/iesebre/ModularIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/Exercici1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/GeneraContrasenya.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/src/main/java/nf1/GeneraContrasenya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/Exercici1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/Exercici1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/GeneraContrasenya.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicisUF2/target/classes/nf1/GeneraContrasenya.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +153,7 @@
       <workItem from="1671449703865" duration="599000" />
       <workItem from="1672686142976" duration="599000" />
       <workItem from="1673253644963" duration="57000" />
+      <workItem from="1673261688921" duration="34000" />
     </task>
     <servers />
   </component>
