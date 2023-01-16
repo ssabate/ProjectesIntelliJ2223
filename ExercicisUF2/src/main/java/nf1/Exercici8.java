@@ -5,13 +5,15 @@ import java.util.Arrays;
 public class Exercici8 {
 
     public static void main(String[] args) {
-        int num=-12345670;
-        System.out.println(Arrays.toString(vectorDigits(num)));
+//        int num=-12345670;
+//        System.out.println(Arrays.toString(vectorDigits(num)));
+//
+//        int[] v=vectorDigits(num);
+//        for (int i = 0; i < v.length; i++) {
+//            System.out.println(v[i]);
+//        }
 
-        int[] v=vectorDigits(num);
-        for (int i = 0; i < v.length; i++) {
-            System.out.println(v[i]);
-        }
+        System.out.println(Arrays.toString(vectorDigits(-1000)));
 
     }
 
@@ -24,6 +26,7 @@ public class Exercici8 {
             vector[i] = Character.getNumericValue(numACadena.charAt(i+(numero<0 ? 1 : 0)));
         }
 
+        //Canviem el signe al primer dígit diferent de 0 de la part esquerra del número
         if(numero<0) vector[0]=vector[0]*-1;
 
         return vector;

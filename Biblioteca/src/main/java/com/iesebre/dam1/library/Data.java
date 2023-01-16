@@ -2,6 +2,11 @@ package com.iesebre.dam1.library;
 
 public class Data {
 
+    /**
+     * Diu si un any és o no bixest
+     * @param year any del qual volem saber si és o no bixest
+     * @return true si any és bixest i false en cas contrari
+     */
     public static boolean bixest(int year){
 
         //if(year<1584) return false;
