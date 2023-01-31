@@ -6,7 +6,7 @@ public class Exercici1 {
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
         int[] vector;
-        int num, index=0, candidat=2;
+        int num, index=0, candidat=2                                                                                                                                ;
 
         do {
             System.out.println("Introduix un número enter major que 0:");

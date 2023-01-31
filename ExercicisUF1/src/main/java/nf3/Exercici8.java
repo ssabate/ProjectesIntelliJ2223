@@ -21,8 +21,10 @@ public class Exercici8 {
             numero/=10;
             longitud++;
         }
+
         //Instaciem el vector ara que sabem quantes caselles necessitem
         vector=new int[longitud];
+
         //Recuperem el valor correcte del numero
         numero=copia;
 
