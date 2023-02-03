@@ -15,11 +15,11 @@ public class MainV4 {
         vents[5]=new Vent("Vent de dalt", 150);
 
         for (int i = 0; i < vents.length; i++) {
-            vents[i]=new Vent();
+            vents[i]=new Vent("qualsevol");
             System.out.println(vents[i].toString());
         }
 
-        vents[0].direccioPrincipal='N';
+        vents[0].setDireccioPrincipal('N');
 
         for (int i = 0; i < vents.length; i++) {
             System.out.println(vents[i].toString());

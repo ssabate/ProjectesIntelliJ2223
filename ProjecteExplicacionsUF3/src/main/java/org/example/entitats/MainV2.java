@@ -12,8 +12,8 @@ public class MainV2 {
                 ' ',
                 35);
 
-        System.out.println(llevant.nom);
-        System.out.println(llevant.diesAny);
+        System.out.println(llevant.getNom());
+        System.out.println(llevant.getDiesAny());
 
         System.out.println(llevant.mostrar());
 

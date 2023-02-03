@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5fe038b-506b-468c-90d7-347ed8435840" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/MainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/MainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/MainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/Vent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/MainV5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nf3/Exercici1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nf3/Exercici8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nf3/Exercici8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/MainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/MainV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/MainV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/MainV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/Vent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/src/main/java/org/example/entitats/Vent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/target/classes/org/example/entitats/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/target/classes/org/example/entitats/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/target/classes/org/example/entitats/MainV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/target/classes/org/example/entitats/MainV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/target/classes/org/example/entitats/MainV4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/target/classes/org/example/entitats/MainV4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/target/classes/org/example/entitats/Vent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjecteExplicacionsUF3/target/classes/org/example/entitats/Vent.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +164,8 @@
       <workItem from="1674644460189" duration="599000" />
       <workItem from="1674656528550" duration="1805000" />
       <workItem from="1674662272356" duration="599000" />
-      <workItem from="1675148958933" duration="704000" />
+      <workItem from="1675148958933" duration="1818000" />
+      <workItem from="1675321998731" duration="599000" />
     </task>
     <servers />
   </component>
