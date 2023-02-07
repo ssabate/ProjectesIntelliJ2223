@@ -1,8 +1,17 @@
 package org.example.entitats;
 
-public class Vent {
+import java.io.Serializable;
+
+public class Vent implements Serializable {
+
+
+
+    //Prpopietats estàtiques
+    public static final double GAMMA=5.56;
+    private static int serialNumber=0;
 
     //Propietats de la classe --> definixen l'estat dels objectes
+    public int identificador;
     private String nom;
     private double ratxaMaxima;
     private boolean calid;
@@ -13,7 +22,9 @@ public class Vent {
     //Mètodes --> definixen el comportament dels objectes
 
     //1r tipo. Mètode(s) constructor(s)
-    private Vent(){
+    private Vent(){                 //constructor buit, per què no té paràmetres
+        identificador=serialNumber;
+        serialNumber=serialNumber+1;
         nom="Sirocco";
         direccioPrincipal='S';
         direccioSecundaria=' ';
@@ -21,10 +32,12 @@ public class Vent {
     }
 
     public Vent(String nom){
+        this();                     //crido al constructor buit de la classe
         this.nom=nom;
     }
 
     public Vent(String nom, int diesAny){
+        this();
         this.nom=nom;
         this.diesAny=diesAny;
     }
@@ -35,6 +48,7 @@ public class Vent {
                 char direccioPrincipal,
                 char direccioSecundaria,
                 int diesAny){
+        this();
         this.nom=nom;
         this.ratxaMaxima=ratxaMaxima;
         this.calid=calid;
@@ -70,6 +84,22 @@ public class Vent {
     }
 
     //3r tipo --> mètodes accessors, getters i setters
+
+    public static int getSerialNumber() {
+        return serialNumber;
+    }
+
+    private static void setSerialNumber(int serialNumber) {
+        Vent.serialNumber = serialNumber;
+    }
+
+    public int getIdentificador() {
+        return identificador;
+    }
+
+    private void setIdentificador(int identificador) {
+        this.identificador = identificador;
+    }
 
     public String getNom() {
         return nom;
@@ -119,5 +149,12 @@ public class Vent {
 
     public void setDiesAny(int diesAny) {
         this.diesAny = diesAny;
+    }
+
+
+    public static void main(String[] args) {
+        serialNumber++;
+        Vent v=new Vent();
+        v.identificador=34;
     }
 }

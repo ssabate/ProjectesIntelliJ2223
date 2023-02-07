@@ -16,13 +16,13 @@ public class ExcepcioII {
                 for (int i = 0; true; i++) {
                     array[i]=null;
                 }
-                Scanner ent2=null;
-                if(ent2!=null) ent2.nextInt();
-                num = Integer.parseInt(ent.nextLine());
-                if(num%2 == 0) System.out.println(num/0);
-                if(num<=0) throw new NumberFormatException();
-                System.out.println(num);
-                break;
+//                //Scanner ent2=null;
+//                //if(ent2!=null) ent2.nextInt();
+//                //num = Integer.parseInt(ent.nextLine());
+//                if(num%2 == 0) System.out.println(num/0);
+//                if(num<=0) throw new NumberFormatException();
+//                System.out.println(num);
+//                break;
             }//catch(Exception ex) {
 //                System.out.println("Houston, tenemos un problema!!");
 //            }
