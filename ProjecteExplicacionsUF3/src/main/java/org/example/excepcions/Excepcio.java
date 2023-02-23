@@ -1,11 +1,14 @@
 package org.example.excepcions;
 
+import org.example.entitats.Vent;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Excepcio {
 
     public static void main(String[] args) {
+
         Scanner ent = new Scanner(System.in);
 
         System.out.println("Introduix un número enter major que 0:");

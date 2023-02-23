@@ -23,7 +23,7 @@ public class Vent implements Serializable {
 
     //1r tipo. Mètode(s) constructor(s)
     private Vent(){                 //constructor buit, per què no té paràmetres
-        identificador=serialNumber;
+        this.identificador=serialNumber;
         serialNumber=serialNumber+1;
         nom="Sirocco";
         direccioPrincipal='S';

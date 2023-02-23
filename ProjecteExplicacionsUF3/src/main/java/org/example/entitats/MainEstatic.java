@@ -13,15 +13,8 @@ public class MainEstatic {
             v.identificador=89;
 
         }
-
-
         //System.out.println(v.GAMMA);
-
-
-
-
     }
 
-
-
 }
+
