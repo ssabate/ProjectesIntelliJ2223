@@ -2,6 +2,12 @@ package org.example.entitats;
 
 import java.io.Serializable;
 
+
+enum PuntCardinal{
+
+    N,S,E,O,NN,NE,NW
+
+}
 public class Vent implements Serializable {
 
 
@@ -18,6 +24,8 @@ public class Vent implements Serializable {
     private char direccioPrincipal;
     private char direccioSecundaria;
     private int diesAny;
+
+    private PuntCardinal direccio;
 
     //Mètodes --> definixen el comportament dels objectes
 
