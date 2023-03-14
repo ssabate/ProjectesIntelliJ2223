@@ -65,6 +65,8 @@ class Main{
         }
 
         Complexa puntC=Complexa.valueOf("N");
+        System.out.println(puntC);
+        System.out.println(Complexa.valueOf("NPI"));
 
 
     }
