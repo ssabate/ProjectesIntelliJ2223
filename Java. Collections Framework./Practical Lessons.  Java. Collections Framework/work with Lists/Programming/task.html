@@ -1,0 +1,10 @@
+<p><span style="color: #000;">Sooo this task may seem difficult , but actually it is not ! some after it become man...)<br></span>your BufferedReader gets string as this : "1 2 3 4 5"</p><ol><li>next, you must create a list of numbers from this line(ArrayList&lt;Integer&gt;) in the createBigList:<br>*String[] strarr = str.split(" "); - String element from given string ( "1", "2", "3", "4", "5")<br>*In for-each loop convert to Integer and add all alements from strarr to bigList<br> --&gt;Use<i> Integer.parseInt(s)</i> or <i>Integer.valueOf(s)</i> to convert from String to Integer<br>*return this bigList<br><br></li><li>have created three list, add the desired items in each and sort this lists in ascending order:<pre><code class="language-java">div2List for integers that x%2=0 {2, 4}
+div3List for integers that x%3=0 {3}
+otherlist for the remaining integers {1, 5}
+if x%2=0 and x%3=0 add x to div2List and div3List!
+</code></pre></li><li>Sort all three lists and create List of this three lists where the first element is div2List, second - 
+
+div3List and third -
+
+otherlist.<br>*method printInLine(resultList) is already written by me</li></ol><i>*you can use all from java.util.*( including </i><i><i><pre>java.util.stream.*)
+*don't forget class </pre></i></i><i><i><pre>Collections(many useful methods on collections)</pre></i></i><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">1 177 8 700 785 4635 3489 52 7418 43 36 8695 3 64</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">8 36 52 64 700 7418;3 36 177 3489 4635;1 43 785 8695</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>

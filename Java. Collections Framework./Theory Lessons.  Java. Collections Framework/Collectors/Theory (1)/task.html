@@ -1,0 +1,25 @@
+<h2 style="text-align: center;">Collector -&gt; Collection</h2><p>Collectors designed to combine elements . For example, They find great use in the Java Streams in terminal operation .collect()<br></p><p>For this lesson we need to write followong class</p><pre><code class="language-java">class Main{
+public static void main(String[] args) {List&lt;Person&gt; persons = Arrays.asList(new Person("Andrew", 20), new Person("Igor", 23),
+        new Person("Ira", 23), new Person("Vitia", 12));
+
+
+class Person{    String name;
+    int age;
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    @Override
+    public String toString() {
+        return name;
+    }} }
+}
+
+</code></pre><br><ul><li>The most popular example :<br>-<i>producing collections</i> :<br>will return the list of names of all the persons<br><pre><code class="language-java">List&lt;String&gt; names = persons.stream().map(p-&gt;p.name).collect(Collectors.toList());</code></pre>you can obtain other collections using Collectors.toSet(),
+
+Collectors.toMap()<br><pre><code class="language-java">Map&lt;String,String&gt; map = Stream.of("AA","BB","CC").collect(Collectors.toMap(k-&gt;k, v-&gt;v+v));
+       map.forEach((k,v)-&gt;System.out.println("key:"+k +"  value:"+v));
+//output:
+//key:AA  value:AAAA
+//key:BB  value:BBBB
+//key:CC  value:CCCC</code></pre><br></li></ul>   Сollectors.toCollection() creates a collection you want to use <br><pre><code class="language-java">List&lt;Integer&gt; ages=persons.stream().map(p-&gt;p.age).collect(Collectors.toCollection(ArrayList::new));</code></pre><br><br>

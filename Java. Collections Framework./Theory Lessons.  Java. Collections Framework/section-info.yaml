@@ -1,0 +1,10 @@
+custom_name: Theory Lessons. "Java. Collections Framework".
+content:
+- Collection. What it is
+- List
+- Set
+- Queue   Deque
+- Map
+- Stream API + lambda expr
+- Collectors
+- "Anything in work with collection(from String to list,comparator)"

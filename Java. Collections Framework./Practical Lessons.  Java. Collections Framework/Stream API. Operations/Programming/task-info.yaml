@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public static List<String> noLongString(List<String> strings) {
+
+            return strings;
+        }
+  learner_created: false
+status: Unchecked
+record: -1
+submission_language: java8

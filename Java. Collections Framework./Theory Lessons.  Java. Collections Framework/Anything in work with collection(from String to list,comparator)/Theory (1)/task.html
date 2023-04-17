@@ -1,0 +1,52 @@
+<h2 style="text-align: center;">Comparable &amp; Comparator<br></h2><pre><pre><code class="language-java">public interface Comparable&lt;T&gt; </code></pre></pre><p><i><br></i></p><p><i>class Collections implements the interface,so you can sort collections</i></p><p>This interface have 1 method : </p><pre><pre><code class="language-java">public int compareTo(T o);</code></pre>example of sorting
+<pre><code class="language-java">List&lt;Integer&gt; lst = new ArrayList&lt;&gt;();
+//in ascending order
+lst.sort((o1, o2) -&gt; o1.compareTo(o2)); //lst.sort(Integer::compareTo);
+Collections.sort(lst,Comparator.naturalOrder());
+Collections.sort(lst);
+
+//in descending order
+lst.sort((o1, o2) -&gt; o2.compareTo(o1));
+Collections.sort(lst,Comparator.reverseOrder());Collections.sort(lst,(o1, o2) -&gt; o2.compareTo(o1));
+
+//with Stream API
+lst.stream().filter(i -&gt; i%2==0).sorted(Comparator.reverseOrder()).forEach(System.out::println);
+
+</code></pre>for ascending order lst.sort(Comparator&lt;? super E&gt; c) forcing us to write some implementation comparisons and the class Collections no 
+method <b>compareTo() </b>return 0 if o1==o2 , return -1 if o1&lt;o2 and return 1 if o1&gt;o2
+
+As you've noticed method sort() takes as argument (Comparator&lt;? super E&gt; c) he has a lot of different methods
+It you need to implement
+<i>let us examine a more complex example:</i>
+<pre><code class="language-java">List&lt;Pet&gt; petList = new ArrayList&lt;&gt;();
+petList.add(new Pet(10,"Red"));
+petList.add(new Pet(1,"Cezar"));
+
+Collections.sort(petList,(p1, p2) -&gt; (p1.age).compareTo(p2.age));
+//or
+Collections.sort(petList, Comparator.comparing(p -&gt; (p.age)));
+
+//Stream API
+//compares alphabetically
+petList.stream().sorted((p1,p2)-&gt;(p2.getName()).compareTo(p1.getName())).forEach(System.out::println);//Red Cezar
+//or compareToIgnoreCase()
+
+class Pet{
+    private Integer age;
+    private String name;
+
+    public Pet(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+public int getAge() {
+    return age;
+}
+
+public String getName() {
+    return name;
+}
+}</code></pre>
+
+
+</pre><i><h2 style="text-align: center;">javadoc<br><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html" rel="nofollow noopener noreferrer">https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html</a><br></h2></i>

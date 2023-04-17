@@ -1,0 +1,72 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 195
+    length: 8
+    placeholder_text: /*TODO*/
+    initial_state:
+      length: 8
+      offset: 195
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: sum = (byte) (x + y);
+  - offset: 286
+    length: 8
+    placeholder_text: /*TODO*/
+    initial_state:
+      length: 8
+      offset: 286
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: sum = (byte) (x + y);
+  - offset: 369
+    length: 8
+    placeholder_text: /*TODO*/
+    initial_state:
+      length: 8
+      offset: 369
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: sum = (byte) (x + y);
+  text: |-
+    class Task {
+      public static void main(String[] args) {
+        sumBytes();
+        sumShorts();
+        sumInts();
+      }
+
+      private static void sumBytes() {
+        byte x = 5;
+        byte y = 10;
+        byte sum;
+        /*TODO*/
+      }
+
+      private static void sumShorts() {
+        short x = 5;
+        short y = 10;
+        sh/*TODO*/yte) (x + y);
+      }
+
+      private static void sumInts() {
+        int x = 5;
+        int/*TODO*/
+        sum = (byte) (x + y);
+      }
+    }
+  learner_created: false
+- name: test/Test.java
+  visible: false
+  text: |-
+    public class Test {
+        // put your test here
+    }
+  learner_created: false
+status: Unchecked
+record: -1

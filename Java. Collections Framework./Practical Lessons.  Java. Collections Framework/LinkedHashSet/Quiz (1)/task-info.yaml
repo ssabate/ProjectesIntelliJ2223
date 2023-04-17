@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: lhs.add(obj);
+- text: lhs.forEach(System.out::println);
+- text: lhs.lower(1);
+- text: lhs.add(i);
+- text: lhs.first()
+- text: lhs.contains(10);
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Quiz
+local_check: false

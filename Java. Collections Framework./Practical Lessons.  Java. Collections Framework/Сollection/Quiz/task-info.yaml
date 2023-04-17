@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: col.addAll(col1);
+- text: col1.add(obj);
+- text: col.remove(obj)
+- text: col.containsAll(col1);
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Unchecked
+record: -1
+local_check: false

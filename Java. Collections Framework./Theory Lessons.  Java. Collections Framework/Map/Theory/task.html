@@ -1,0 +1,51 @@
+<h2 style="text-align: center;">interface Map&lt;K,V&gt;</h2><p>K is the type of <span style="color: #ff4363;">keys </span>and V is the type of stored <span style="color: #ff4363;">values<br></span>The <code>java.util.Map</code> interface represents a mapping between a key and a value. The <code>Map</code> interface is not a subtype of the <code>Collection</code> interface.
+A map cannot contain duplicate keys; each key can map to at most one value. </p><h2 style="text-align: center;">Map Implementations:</h2><ul><li>java.util.HashMap</li><li>java.util.Hashtable</li><li>java.util.EnumMap</li><li>java.util.IdentityHashMap</li><li>java.util.LinkedHashMap</li><li>java.util.Properties</li><li>java.util.TreeMap</li><li>java.util.WeakHashMap</li></ul><p style="text-align: center;"> *the most commonly used <code>Map</code> implementations are <code>HashMap</code> and <code>TreeMap</code>. </p><h2 style="text-align: center;">hierarchy:</h2><p><span class="image-wrapper"><img alt="" height="599" src="https://ucarecdn.com/c7848090-1fc1-4549-b102-144ed5104a81/-/crop/676x767/32,14/-/preview/" style="float: left;" title="Image: https://ucarecdn.com/c7848090-1fc1-4549-b102-144ed5104a81/-/crop/676x767/32,14/-/preview/" width="527"></span></p><h2 style="text-align: center;"><br><br></h2>
+
+*The hierarchy of classes very similar to the hierarchy of Sets
+
+<br>
+
+
+
+<p><code><span style="color: #a03881;"><b>HashMap</b></span></code> maps a key and a value. It does not guarantee any order of the elements stored internally in the map.</p><p><code><b><span style="color: #ff4363;">TreeMap</span></b></code><span style="color: #ff4363;"> </span>also maps a key and a value. Furthermore it guarantees the order in which keys or values are iterated - which is the sort order of the keys or values. Check out the JavaDoc for more details.<br></p><p><b><span style="color: #64b0f4;">LinkedHashMap </span></b>- extends HashMap class. It creates a linked list of elements in the map, located in the order in which they were inserted.<br><br><i>in order to iterate through the map you need to know:</i><br></p><p><i><b>Set&lt;Map.Entry&lt;K, V&gt;&gt; entrySet()</b> – Returns a map view as a set of Map objects.Entry, i.e. pairs "key-value". From this view you can delete items, they are removed from the map, but not add them.<br><b>Set&lt;K&gt; keySet()</b> – Returns a map view as a set of all keys. From this view you can remove elements, while the keys and associated values are automatically removed from the map, but adding new elements is impossible.<br><b>Collection&lt;V&gt; values() </b>– Returns the map view in the form of the set of all values. From this view, you can remove items, the values and corresponding keys are automatically removed from the map, but adding new elements is impossible.</i></p><p><i><b>few examples of how to create a </b><code><b>Map</b></code><b> instance: </b></i></p><pre><code class="language-java">Map mapA = new HashMap();
+SortedMap&lt;String,Integer&gt; mapB = new TreeMap&lt;&gt;();
+
+mapA.put("key1", "element 1");
+mapA.put("key2", "element 2");
+mapA.put("key3", "element 3");</code></pre><i><b>
+
+</b><p><b><i><br></i></b></p><p><b><i>Accessing Elements</i></b><b><i></i><i>:</i></b></p></i><pre><code class="language-java">// key iterator
+Iterator&lt;String&gt; iterator = mapA.keySet().iterator();
+// value iterator
+Iterator&lt;Integer&gt; iterator1 = mapA.values().iterator();
+while(iterator.hasNext(){
+  Object key   = iterator.next();
+  Object value = mapA.get(key);
+}
+//functional way to iterate and print
+﻿iterator1.forEachRemaining(System.out::println);
+﻿
+
+//access via new for-loop
+for(Object key : mapA.keySet()) {
+    Object value = mapA.get(key);
+}﻿﻿
+﻿
+// using Entry
+for (Map.Entry&lt;String,Integer&gt; entry : mapB.entrySet()){
+    String key = entry.getKey();
+    int value = entry.getValue();
+    System.out.println(key+" : "+value);
+}
+//in java8
+mapB.forEach((k,v)-&gt; System.out.println(k+" : "+v));</code></pre><br><p><b><i>some useful methods:</i></b></p><p>﻿<code>default <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">V</a> </code><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#putIfAbsent-K-V-" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#putIfAbsent-K-V-">putIfAbsent</a>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">K</a> key, <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">V</a> value) - </code>If the specified key is not already associated with a value (or is mapped ﻿to <code>null</code><span>) associates it with the given value and returns </span><code>null</code><span>, else returns the current value</span></p><p><span>
+
+<code>default <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">V</a> </code><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-">getOrDefault</a>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html" rel="nofollow noopener noreferrer">Object</a> key, <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">V</a> defaultValue) - </code>Returns the value to which the specified key is mapped, or <code>defaultValue</code> if this map contains no mapping for the key.
+
+<br></span></p><p><code>default <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">V</a> </code><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#computeIfAbsent-K-java.util.function.Function-" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#computeIfAbsent-K-java.util.function.Function-">computeIfAbsent</a>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">K</a> key, <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html">Function</a>&lt;? super <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">K</a>,? extends <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">V</a>&gt; mappingFunction) - </code><span>If the specified key is not already associated with a value (or is mapped to </span><code>null</code><span>), attempts to compute its value using the given mapping function and enters it into this map unless </span><code>null</code><span>.</span><br></p><span>
+
+<p><code>default <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">V</a> </code><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#computeIfPresent-K-java.util.function.BiFunction-" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#computeIfPresent-K-java.util.function.BiFunction-">computeIfPresent</a>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">K</a> key, <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/BiFunction.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/function/BiFunction.html">BiFunction</a>&lt;? super <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">K</a>,? super <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">V</a>,? extends <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer">V</a>&gt; remappingFunction) - </code><span>If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.</span></p><p><span>
+
+</span></p><div><p><code>boolean </code><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#containsKey-java.lang.Object-" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#containsKey-java.lang.Object-">containsKey</a>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html">Object</a> key) - </code><span>Returns </span><samp>true</samp><span> if this map contains a mapping for the specified key.<br>*there is a similar method - containsValue(Object value)</span></p><p><span>
+
+</span></p><h2 style="text-align: center;">More Details in the JavaDoc:<br><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">https://docs.oracle.com/javase/8/docs/api/java/util/Map.html</a>﻿<br></h2><p><span class="image-wrapper"><p style="text-align: center;"><img class="image-fullsize" src="https://ucarecdn.com/bf781962-06b7-4e1a-8af6-30e508da6ab3/" title="Image: https://ucarecdn.com/bf781962-06b7-4e1a-8af6-30e508da6ab3/"></p></span></p></div></span><p><br></p>

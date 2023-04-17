@@ -1,0 +1,56 @@
+<h1 style="text-align: center;">Stream&lt;T&gt;</h1><p>
+
+A sequence of elements supporting sequential and parallel aggregate operations. The following example illustrates an aggregate operation using <a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html" rel="nofollow noopener noreferrer"><code>Stream</code></a>:</p><pre><code class="language-java">List&lt;Widget&gt; widgets = new ArrayList&lt;&gt;();     
+int sum = widgets.stream()
+                      .filter(w -&gt; w.getColor() == RED)
+                      .mapToInt(w -&gt; w.getWeight())
+                      .sum(); </code></pre>
+
+*this code calculates the total weight of all red widgets<div><p><b><i>
+
+Stream operations are divided into <em>intermediate</em> and <em>terminal</em> operations, and are combined to form <em>stream pipelines</em>.
+
+<br></i></b><i></i>1.
+
+<span style="color: #ff4363;"><b>Intermediate </b></span>operations return a new stream. They are always <em>lazy</em>; executing an intermediate operation such as <code>filter()</code> does not actually perform any filtering, but instead creates a new stream that, when traversed, contains the elements of the initial stream that match the given predicate. Traversal of the pipeline source does not begin until the terminal operation of the pipeline is executed.<br>**examples of intermediate operations: filter(),map(),sorted()...<br>2.
+
+<span style="color: #ff4363;"><b>Terminal </b></span>operations, such as <code>Stream.forEach</code> or <code>IntStream.sum</code>, may traverse the stream to produce a result or a side-effect. After the terminal operation is performed, the stream pipeline is considered consumed, and can no longer be used; if you need to traverse the same data source again, you must return to the data source to get a new stream. In almost all cases, terminal operations are <em>eager</em>, completing their traversal of the data source and processing of the pipeline before returning. Only the terminal operations <code>iterator()</code> and <code>spliterator()</code> are not; these are provided as an "escape hatch" to enable arbitrary client-controlled pipeline traversals in the event that the existing operations are not sufficient to the task.
+
+</p><h2 style="text-align: center;"><b>Generating Streams:</b></h2><ul><li><p><b>stream()</b> − Returns a sequential stream considering collection as its source.</p></li><li><p><b>parallelStream()</b> − Returns a parallel Stream considering collection as its source.</p></li></ul><pre>List&lt;String&gt; strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
+List&lt;String&gt; filtered = strings.stream().filter(string -&gt; !string.isEmpty()).collect(Collectors.toList());</pre>
+
+<i>There are many methods of obtaining stream in addition to those above:</i><div><i><pre><code class="language-java">Arrays.stream(arr),IntStream.range(0,100),Stream.of(1,3,5,7),bufferedReader.lines() and so on</code></pre><br></i><div><i>**Parallelization is not always good, for example when we use reduce or time of proper operation is less than 10^5 ms(in tests of many developers)</i></div><div><i>**you should always understand how your pipeline ,for example, filter() better call before sorted(), then you have to sort fewer items because some will be filtered out.</i></div><div><i><br></i></div><div><i><b>Stream can be ordered() and unordered() like HashSet and ArrayList</b></i></div><div><i><b>It is also worth mentioning that there are specialized streams﻿ such as 
+
+ <a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html" rel="nofollow noopener noreferrer"><code>IntStream</code></a>
+
+﻿, DoubleStream with with their specific methods﻿.<br></b></i></div><h2 style="text-align: center;"><i>basic operations :</i></h2><p><b>forEach<br></b>Stream has provided a new method ‘forEach’ to iterate each element of the stream. The following code segment shows how to print 10 random numbers using forEach.<br></p><pre><code class="language-java">Random random = new Random();
+random.ints().limit(10).forEach(System.out::println);</code></pre>
+
+<p><b>map<br></b>The ‘map’ method is used to map each element to its corresponding result. The following code segment prints unique squares of numbers using map.<br></p><pre><code class="language-java">List&lt;Integer&gt; numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+//get list of unique squares
+List&lt;Integer&gt; squaresList = numbers.stream().map( i -&gt; i*i).distinct().collect(Collectors.toList());
+</code></pre><i>*distinct - returns the stream without duplicates<br></i>
+
+<p><b>filter<br></b>The ‘filter’ method is used to eliminate elements based on a criteria. The following code segment prints a count of empty strings using filter.<br></p><pre><code class="language-java">List&lt;String&gt;strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
+//get count of empty string
+int count = strings.stream().filter(string -&gt; string.isEmpty()).count();</code></pre><div><br></div><div><b>
+
+</b><p><b>sorted</b></p><b><p>The ‘sorted’ method is used to sort the stream. The following code segment shows how to print 10 random numbers in a sorted order.</p><pre><code class="language-java">Random random = new Random();
+random.ints().limit(10).sorted((o1,o2)-&gt; o2.compareTo(o1)).forEach(System.out::println);</code></pre><br>
+
+</b></div><div><b>each operation takes as argument the result of running a particular functional interface:<br></b><code>boolean </code><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#anyMatch-java.util.function.Predicate-" rel="nofollow noopener noreferrer">anyMatch</a>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html" rel="nofollow noopener noreferrer">Predicate</a>&lt;? super <a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html" rel="nofollow noopener noreferrer">T</a>&gt; predicate) - </code>Returns whether any elements of this stream match the provided predicate.</div><div><img alt="" height="261" src="https://ucarecdn.com/f9b88b7f-aab7-45be-8cdc-ca54210be776/-/crop/819x516/0,0/-/preview/" style="float: left;" width="415">If you are not sure of the rationality of your stream , you can test the execution time of these operations:</div></div><div><pre><code class="language-java">int max = 1000000;
+List&lt;String&gt; values = new ArrayList&lt;&gt;(max);
+for (int i = 0; i &lt; max; i++) {
+    UUID uuid = UUID.randomUUID();
+    values.add(uuid.toString());
+}
+//parallel
+long t0 = System.nanoTime();
+long count = values.parallelStream().sorted().count();
+long t1 = System.nanoTime();
+long millis = TimeUnit.NANOSECONDS.toMillis(t1-t0);
+System.out.println(String.format("parallel sort took: %d ms",millis));</code></pre><i><br><br></i></div><h2 style="text-align: center;"><i>More Details In JavaDoc:</i></h2><h2 style="text-align: center;"><i><a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html" rel="nofollow noopener noreferrer">https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html</a><br><a href="http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html" rel="nofollow noopener noreferrer">http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html</a><br></i><br>
+
+
+
+<p><br></p></h2></div>

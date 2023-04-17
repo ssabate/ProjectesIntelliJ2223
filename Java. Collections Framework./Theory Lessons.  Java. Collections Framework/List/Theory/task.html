@@ -1,0 +1,47 @@
+<h2 style="text-align: center;">class ArrayList<br><p><span class="image-wrapper"><img alt="" height="484" src="https://ucarecdn.com/832de4ab-662a-493f-b126-9354412ef173/-/crop/514x643/15,33/-/preview/" style="float: left;" width="386"></span></p><br></h2><p>ArrayList - Resizable-array implementation of the <samp>List</samp> interface. Implements all optional list operations, and permits all elements, including <samp>null</samp>. In addition to implementing the <samp>List</samp> interface, this class provides methods to manipulate the size of the array that is used internally to store the list
+
+<br>Constructors:<br>
+
+</p><div><p><code>ArrayList() - </code>Constructs an empty list with an initial capacity of ten.</p><p><code>ArrayList(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html" rel="nofollow noopener noreferrer">Collection</a>&lt;? extends <a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html" rel="nofollow noopener noreferrer">E</a>&gt; c) - </code>Constructs a list containing the elements of the specified collection, in the order they are returned by the collection's iterator.</p><p><code>ArrayList(int initialCapacity) - </code>Constructs an empty list with the specified initial capacity.<br><br>some methods of List:<br><span class="image-wrapper"><p style="text-align: center;"><img alt="" class="image-fullsize" src="https://ucarecdn.com/4d0895ee-e0dc-4a3c-ac41-0ab2e0e376e7/-/crop/303x178/0,501/-/preview/"></p></span><br></p><p>Example of work with List:<br></p><pre><code class="language-java">List&lt;String&gt; listA = new ArrayList&lt;&gt;();
+
+listA.add("element 0");
+listA.add("element 1");
+listA.add("element 2");
+int size = list.size();
+
+//access via index
+String element0 = listA.get(0);
+String element1 = listA.get(1);
+String element3 = listA.get(2);
+
+//print all elements
+Iterator iterator = listA.iterator();
+while(iterator.hasNext(){
+  System.out.println(iterator.next());
+}
+
+//foreach-loop
+for(Object object : listA) {
+    String element = (String) object;
+    System.out.println(element);
+}
+
+//classic for loop
+for(int i = 0; i&lt; listA.size(); i++){
+  System.out.println(listA.get(i));
+}
+
+ArrayList&lt;Integer&gt; listB = new ArrayList&lt;&gt;();
+listB.addAll(Arrays.asList(100,200,300));
+//sorting
+Collections.sort(listB,(o1,o2)-&gt;o2.compareTo(o1));//descending order
+Collections.sort(listB);//ascending order
+
+//filtering
+remove all numbers more than 200
+listB.removeIf(i -&gt; i&gt;200);
+listB.stream().filter(i -&gt; i&lt;=200);
+
+</code></pre></div><h2 style="text-align: center;">More Details in the JavaDoc</h2>
+
+<a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html" rel="nofollow noopener noreferrer">               http</a><a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html">s://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html</a><p><br></p>

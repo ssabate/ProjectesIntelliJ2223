@@ -1,0 +1,22 @@
+custom_name: Practical Lessons. "Java. Collections Framework."
+content:
+- ArrayList basic
+- work with Lists
+- Сollection
+- LinkedList
+- class Collections
+- HashSet. Basic operations
+- HashSet. Symmetric Difference
+- Fundamentals of Set
+- TreeSet.  from several to one
+- LinkedHashSet
+- One cup of Iterators
+- Iterator
+- "ListIterator. add() , output"
+- ListIterator. set()
+- Spliterator
+- "Queue, Deque"
+- Map basic methods
+- TreeMap
+- Stream API. Operations
+- Using Stream API with collections

@@ -1,0 +1,8 @@
+<h2 style="text-align: center;">How to turn a string into a collection?<br></h2><p>the answer is very simple...<br>For example your BufferedReader read string as this "1 2 3 4 5"<br>you have several ways:<br></p><pre><code class="language-java">BufferedReader reader = ...;
+String s = reader.readLine();//its "1 2 3 4 5"
+List&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+//use Stream API
+List&lt;Integer&gt; arrayList = Arrays.stream(s.split("\\s")).mapToInt(Integer::valueOf).boxed().collect(Collectors.toList());</code></pre>*"\\s" = its space or "  "<br>*result of s.split("\\s") = String[]<br>or so<br><pre><code class="language-java">String[] arr = s.split(" ");
+for(String s : arr)
+ list.add(Integer.parseInt(s)+1000);
+</code></pre><br>

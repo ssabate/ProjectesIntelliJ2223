@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String[] strings = reader.readLine().split(" ");
+        List<Integer> helpList = getList();
+        Set<Integer> set = new HashSet<>();
+        //add elements from strings to set
+
+        //add elements from helpList to set
+
+        set = removeAllNumbersMoreThan10(set);
+        set.forEach(System.out::println);
+    }
+
+    public static Set<Integer> removeAllNumbersMoreThan10(Set<Integer> set){
+        //put your code here
+        return null;
+    }
+  learner_created: false
+status: Unchecked
+record: -1
+submission_language: java8

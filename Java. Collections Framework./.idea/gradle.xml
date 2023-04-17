@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/ArrayList basic/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/ArrayList basic/Programming (1)" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Fundamentals of Set/Quiz" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Fundamentals of Set/Table" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/HashSet. Basic operations/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/HashSet. Symmetric Difference/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Iterator/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/LinkedHashSet/Quiz" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/LinkedHashSet/Quiz (1)" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/LinkedList/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/ListIterator. add() , output/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/ListIterator. set()/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Map basic methods/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Map basic methods/Programming (1)" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/One cup of Iterators/Matching" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/One cup of Iterators/Quiz" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/One cup of Iterators/Sorting" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Queue, Deque/Quiz" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Spliterator/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Stream API. Operations/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Stream API. Operations/Quiz" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Stream API. Operations/Table" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/TreeMap/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/TreeSet.  from several to one/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Using Stream API with collections/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/class Collections/Matching" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/class Collections/Quiz" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/class Collections/Theory" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/work with Lists/Programming" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Сollection/Quiz" />
+            <option value="$PROJECT_DIR$/Practical Lessons.  Java. Collections Framework/Сollection/Quiz (1)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Anything in work with collection(from String to list,comparator)/Theory" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Anything in work with collection(from String to list,comparator)/Theory (1)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Anything in work with collection(from String to list,comparator)/Theory (2)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Collection. What it is/Theory" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Collection. What it is/Theory (1)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Collection. What it is/Theory (2)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Collection. What it is/Theory (3)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Collectors/Theory" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Collectors/Theory (1)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Collectors/Theory (2)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Collectors/Theory (3)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/List/Theory" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/List/Theory (1)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Map/Theory" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Queue   Deque/Theory" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Queue   Deque/Theory (1)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Set/Theory" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Set/Theory (1)" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Stream API + lambda expr/Theory" />
+            <option value="$PROJECT_DIR$/Theory Lessons.  Java. Collections Framework/Stream API + lambda expr/Theory (1)" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

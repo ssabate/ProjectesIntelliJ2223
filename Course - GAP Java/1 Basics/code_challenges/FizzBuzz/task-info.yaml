@@ -1,0 +1,171 @@
+type: edu
+files:
+- name: src/NumberWordCorrelation.java
+  visible: true
+  text: |-
+    public class NumberWordCorrelation {
+      private Integer number;
+      private String word;
+
+      public NumberWordCorrelation(Integer number, String word) {
+        this.number = number;
+        this.word = word;
+      }
+
+      public Integer getNumber() {
+        return number;
+      }
+
+      public String getWord() {
+        return word;
+      }
+    }
+  learner_created: false
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 72
+    length: 15
+    placeholder_text: /*TODO stage2*/
+    initial_state:
+      length: 15
+      offset: 72
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      NumberWordCorrelation[] correlations = {
+                  new NumberWordCorrelation(3, "Fizz"),
+                  new NumberWordCorrelation(5, "Buzz"),
+          };
+          boolean isDivisible = false;
+          for (NumberWordCorrelation correlation : correlations) {
+            if (i % correlation.getNumber() == 0) {
+              isDivisible = true;
+              s += correlation.getWord();
+            }
+          }
+          if (!isDivisible) {
+            s = String.valueOf(i);
+          }
+  - offset: 72
+    length: 15
+    placeholder_text: /*TODO stage2*/
+    initial_state:
+      length: 15
+      offset: 72
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      NumberWordCorrelation[] correlations = {
+                  new NumberWordCorrelation(3, "Fizz"),
+                  new NumberWordCorrelation(5, "Buzz"),
+                  new NumberWordCorrelation(7, "Rizz"),
+                  new NumberWordCorrelation(9, "Jazz"),
+          };
+          boolean isDivisible = false;
+          for (NumberWordCorrelation correlation : correlations) {
+            if (i % correlation.getNumber() == 0) {
+              isDivisible = true;
+              s += correlation.getWord();
+            }
+          }
+          if (!isDivisible) {
+            s = String.valueOf(i);
+          }
+  text: |-
+    class Task {
+
+      public String fizzBuzz(int i) {
+        String s = "";
+
+        /*TODO stage2*/ correlation.getWord();
+          }
+        }
+        if (!isDivisible) {
+          s = String.valueOf(i);
+        }
+
+
+        return s;
+      }
+    }
+  learner_created: false
+- name: test/Test.java
+  visible: false
+  text: |-
+    import org.junit.Assert;
+
+    import java.util.Map;
+
+    import static java.util.Map.entry;
+
+    public class Test {
+      public static Map<Integer, String> stage1 = Map.ofEntries(
+              entry(1, "1"),
+              entry(2, "2"),
+              entry(3, "Fizz"),
+              entry(4, "4"),
+              entry(5, "Buzz"),
+              entry(6, "Fizz"),
+              entry(7, "7"),
+              entry(8, "8"),
+              entry(9, "Fizz"),
+              entry(10, "Buzz"),
+              entry(13, "13"),
+              entry(14, "14"),
+              entry(15, "FizzBuzz"),
+              entry(16, "16"),
+              entry(17, "17"),
+              entry(18, "Fizz"),
+              entry(19, "19"),
+              entry(20, "Buzz"),
+              entry(21, "Fizz"),
+              entry(22, "22"),
+              entry(23, "23"),
+              entry(24, "Fizz"),
+              entry(25, "Buzz"),
+              entry(26, "26"),
+              entry(27, "Fizz"),
+              entry(28, "28"),
+              entry(29, "29"),
+              entry(30, "FizzBuzz")
+      );
+
+      public static Map<Integer, String> stage2 = Map.ofEntries(
+              entry(7, "Rizz"),
+              entry(9, "FizzJazz"),
+              entry(14, "Rizz"),
+              entry(18, "FizzJazz"),
+              entry(21, "FizzRizz"),
+              entry(27, "FizzJazz"),
+              entry(28, "Rizz")
+      );
+
+      @org.junit.Test
+      public void stage1() {
+        Task task = new Task();
+        for (Map.Entry<Integer, String> entry : stage1.entrySet()) {
+          Integer input = entry.getKey();
+          String actual = task.fizzBuzz(entry.getKey());
+          String expected = entry.getValue();
+          Assert.assertEquals("for input: "+ input, expected, actual);
+        }
+      }
+
+      @org.junit.Test
+      public void stage2() {
+        Task task = new Task();
+        for (Map.Entry<Integer, String> entry : stage2.entrySet()) {
+          Integer input = entry.getKey();
+          String actual = task.fizzBuzz2(entry.getKey());
+          String expected = entry.getValue();
+          Assert.assertEquals("for input: "+ input, expected, actual);
+        }
+      }
+
+    }
+  learner_created: false
+status: Unchecked
+record: -1

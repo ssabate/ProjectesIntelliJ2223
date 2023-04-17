@@ -1,0 +1,57 @@
+<h2 style="text-align: center;">Lambda Expressions:</h2><p><i>*for more convenient use of the Stream api, and in General to reduce and simplify the code, you need to understand how to use lambda expressions<br></i><b>Well, how lambda can make life easier?</b></p><p><b><span class="image-wrapper"><img alt="" height="275" src="https://ucarecdn.com/b1df71c4-3482-443f-9297-bc888bfd5fb9/" style="float: right;" title="Image: https://ucarecdn.com/b1df71c4-3482-443f-9297-bc888bfd5fb9/" width="368"></span><br></b></p><pre><code class="language-java">// Anonymous Runnable
+ Runnable r1 = new Runnable(){
+       @Override
+       public void run(){
+         System.out.println("Hello world one!");
+       }
+     };
+     
+// Lambda Runnable
+Runnable r2 = () -&gt; System.out.println("Hello world two!");
+
+//if the lambda expression is not one string use {//method body}:
+Runnable r2 = () -&gt; {System.out.println("Hello world two!");
+System.out.println("I'm better than r1");}
+</code></pre><b><p><b><br></b></p>example with its functional interface:<br></b><p><b></b></p><pre></pre><pre><code class="language-java">public class LambdaDemo { public static void main(String[] args) {
+Converter&lt;Integer,String&gt; conv = (from)-&gt; from+"!!!";//implementation of the method convert() from Converter
+String s = conv.convert(10);
+System.out.println(s);//10!!!
+
+NumTest numTest = (n) -&gt; (n%2) == 0;//implementation of the method test() from NumTest
+System.out.println(numTest.test(10)?"even":"odd");//even}
+
+@FunctionalInterface
+interface Converter&lt;T extends Number,R&gt;{R convert(T num);}
+
+interface NumTest{boolean test(int n);}}
+</code></pre><b><pre></pre></b><div>*FunctionalInterface - interface with one abstract method</div><div><b><i>lambda expressions can look like this:</i></b></div><div><b></b><pre><code class="language-java">1.(int n) -&gt; return n+" books"
+
+2.(n) -&gt; n+" girls"
+
+3.n -&gt; {String s = "i want "+ n+ "bottles of dark beer";
+return s;}
+
+4.(s) -&gt; Integer::parseInt // class::method!
+</code></pre><b><i>my example of class::method type of lambda:</i></b></div><div><i><pre></pre></i><pre><code class="language-java">public class MyStringOps {
+    String strReverse(String s){
+    return new StringBuffer(s).reverse().toString();
+ }﻿}
+interface StringFun{String func(String n);}
+
+class MethodRefDemo{
+        static String stringOp(StringFun sf, String s){
+        return sf.func(s);
+    }
+
+        public static void main(String[] args) {
+            String inStr = "lambda-expression is cool and efficiently﻿";
+            String outStr;
+            MyStringOps myStringOps = new MyStringOps();
+            outStr = stringOp(myStringOps::strReverse,inStr);
+            System.out.println(outStr);//yltneiciffe dna looc si noisserpxe-adbmal﻿
+    }
+}﻿</code></pre><i><pre>﻿</pre><br></i>
+
+<h2 style="text-align: center;">More Details in this Quick Start Tutorial:<br><a href="http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html" rel="nofollow noopener noreferrer" title="Link: http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html">http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html</a><br></h2>
+
+<br></div>

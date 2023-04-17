@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Theory_Lessons.__Java._Collections_Framework-Anything_in_work_with_collection_from_String_to_list,comparator_-Theory__2_:main" external.linked.project.path="$MODULE_DIR$/../../../../../Theory Lessons.  Java. Collections Framework/Anything in work with collection(from String to list,comparator)/Theory (2)" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Java._Collections_Framework" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../Theory Lessons.  Java. Collections Framework/Anything in work with collection(from String to list,comparator)/Theory (2)/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Theory Lessons.  Java. Collections Framework/Anything in work with collection(from String to list,comparator)/Theory (2)/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Theory Lessons.  Java. Collections Framework/Anything in work with collection(from String to list,comparator)/Theory (2)/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Java._Collections_Framework.util.main" />
+  </component>
+</module>

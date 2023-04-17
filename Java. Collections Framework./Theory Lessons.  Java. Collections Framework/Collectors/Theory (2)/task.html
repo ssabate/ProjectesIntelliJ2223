@@ -1,0 +1,39 @@
+<h2 style="text-align: center;"><b></b><b></b>Create good map using Collector<br></h2><div><ul><li><b>Grouping:<br></b>Grouping allows you to divide the data stream into as many groups for any parameter<br>-Write following class for this lesson<br><b><pre><code class="language-java">class Account{</code></pre></b><pre><code class="language-java">    private long balance;
+    private String number;
+    private String status;
+
+    public Account(long balance, String number,String status) {
+        this.balance = balance;
+        this.number = number;
+        this.status = status;
+    }
+
+    public long getBalance() {return balance;}
+    public String getStatus() {return status;}
+    public String getNumber() {return number;}
+}</code></pre><b></b>-Create list of accounts<br><pre><code class="language-java">List&lt;Account&gt; accounts = Arrays.asList(new Account(1000L,"1917","active")
+        ,new Account(10_000_000L,"7777","deleted"),new Account(100_000L,"6969","active"));</code></pre>-Grouping and print all accounts with "active" status<br><pre><code class="language-java">Map&lt;String,List&lt;Account&gt;&gt; groupingByStatus = accounts.stream()
+                          .collect(Collectors.groupingBy(Account::getStatus));
+
+groupingByStatus.get("active")
+.forEach(ac -&gt; System.out.println("status:"+ac.getStatus()+" balance:"+ac.getBalance()));</code></pre><br></li><li><b>Partitioning:<br></b>This operation is easier than the grouping and divides stream by predicate into 2 parts<br>This code print accounts by flag(true or false) according to the predicate 
+
+a-&gt;a.getBalance() &gt;= 10_000
+
+<br><pre><code class="language-java">Map&lt;Boolean,List&lt;Account&gt;&gt; partByBalance  = accounts.stream().collect(Collectors.partitioningBy(a-&gt;a.getBalance() &gt;= 10_000));
+
+partByBalance.forEach((k,v) -&gt; {System.out.print("flag:"+k+" -&gt; \n");
+v.forEach(ac-&gt; System.out.println("account number: "+ac.getNumber() +
+" balance:"+ac.getBalance()));});
+
+//output:
+flag:false -&gt; 
+account number: 1488 balance:1000
+flag:true -&gt; 
+account number: 7777 balance:10000000
+account number: 6969 balance:100000
+</code></pre></li></ul><br><ul><li><b>Other opportunities:<br></b>This code calculate sum of balances for all account by status<b><br></b><pre><code class="language-java">Map&lt;String,Long&gt; sumByStatus = accounts.stream().
+collect(Collectors.groupingBy(Account::getStatus,Collectors.summingLong(Account::getBalance)));
+</code></pre></li></ul><p><b><b></b></b></p><p><b><b><b><br></b></b></b></p><p><b><b><b><b></b></b></b></b></p><ul><li><b><p><b>Sometimes it is usefull to obtain some statistics from the data stream. Here's how you can do this using the Collectors class:</b></p><pre><code class="language-java">System.out.println(accounts.stream().collect(Collectors.summarizingLong(Account::getBalance)) +"\n"
+        +accounts.stream().collect(Collectors.averagingLong(Account::getBalance)));
+</code></pre><br>output :<br></b>LongSummaryStatistics{count=3, sum=10101000, min=1000, average=3367000,000000, max=10000000} //statistics<br>3367000.0 //average value of balances<b><br></b></li></ul><p><br></p><p>﻿</p><b><p><br></p></b></div>

@@ -1,0 +1,10 @@
+<ol><li>On spliteratorWork( List&lt;Double&gt; lst ):<br>-using Spliterator add to <i><span style="color: #ff4363;">List&lt;Double&gt; sqrts</span></i> all square roots of items from lst ,if this item greater than 1<br>-use
+
+Math.sqrt(number)
+
+ to find square root : Math.sqrt(4)-&gt; 2.0</li><li>On print(List&lt;Double&gt; list):<br>-get spliterator() of given <i>list</i><br>-divide 
+
+spliterator into 2 parts ( <span style="color: #ff4363;"><i>use spliterator.trySplit()</i><i></i></span>)<br>-print all items which &gt;=2 from first part (use .println())<br>-print empty string<br>-print all items which &gt;=10 from second part (use .println())</li></ol>*! remember when you use trySplit() method :<br><pre><code class="language-java">List&lt;Integer&gt; lst = new ArrayList&lt;&gt;(Arrays.asList(1,1,1,2,2,2,2));
+Spliterator&lt;Integer&gt; split = lst.spliterator();
+split.trySplit()...//-&gt; 1 1 1 (its your first path of spliterator)
+split...//2 2 2 2 (now split contains of second path)</code></pre><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">4 4 4 100 100 100</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">2.0<br>2.0<br>2.0<br><br>10.0<br>10.0<br>10.0</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">1 4 8 16 99 100 110 121</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">2.0<br>2.8284271247461903<br>4.0<br><br>10.0<br>10.488088481701515<br>11.0</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>

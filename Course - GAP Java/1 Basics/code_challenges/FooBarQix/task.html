@@ -1,0 +1,43 @@
+<html>
+<h1>FooBarQix</h1>
+<h3>Stage 1 - requirements:</h3>
+You should implement a function String compute(int) which implements the following rules:
+If the number is divisible by 3, write “Foo” instead of the number
+If the number is divisible by 5, add “Bar”
+If the number is divisible by 7, add “Qix”
+For each digit 3, 5, 7, add “Foo”, “Bar”, “Qix” in the digits order.
+<h4>Sample output:</h4>
+<ul>
+  <li>1 => 1</li>
+  <li>2 => 2</li>
+  <li>3 => FooFoo (divisible by 3, contains 3)</li>
+  <li>4 => 4</li>
+  <li>5 => BarBar (divisible by 5, contains 5)</li>
+  <li>6 => Foo (divisible by 3)</li>
+  <li>7 => QixQix (divisible by 7, contains 7)</li>
+  <li>8 => 8</li>
+  <li>9 => Foo</li>
+  <li>10 => Bar</li>
+  <li>13 => Foo</li>
+  <li>15 => FooBarBar (divisible by 3, divisible by 5, contains 5)</li>
+  <li>21 => FooQix</li>
+  <li>33 => FooFooFoo (divisible by 3, contains two 3)</li>
+  <li>51 => FooBar</li>
+  <li>53 => BarFoo</li>
+</ul>
+<h3>Stage 2 - new requirements:</h3>
+We have a new business request : we must keep a trace of 0 in numbers, each 0 must be replace par char “*“.
+For this we will create a new function String compute2(int) where we will add this logic on top of the results from compute.
+<h4>Sample output:</h4>
+<ul>
+  <li>101 => 1*1</li>
+  <li>303 => FooFoo*Foo</li>
+  <li>105 => FooBarQix*Bar</li>
+  <li>10101 => FooQix**</li>
+</ul>
+<br>
+<br>
+<div class="hint">
+  Make use of for and if statements.
+</div>
+</html>

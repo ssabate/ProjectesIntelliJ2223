@@ -1,0 +1,14 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public static NavigableMap<Integer, String> getSubMap(NavigableMap<Integer, String> map){
+
+
+        return map;
+    }
+  learner_created: false
+status: Unchecked
+record: -1
+submission_language: java8

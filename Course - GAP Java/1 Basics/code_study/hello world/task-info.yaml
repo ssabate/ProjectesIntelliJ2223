@@ -1,0 +1,32 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 15
+    length: 8
+    placeholder_text: /*TODO*/
+    initial_state:
+      length: 8
+      offset: 15
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      public static void main(String[] args) {
+          System.out.println("hello world");
+        }
+  text: |-
+    class Task {
+      /*TODO*/
+    }
+  learner_created: false
+- name: test/Test.java
+  visible: false
+  text: |-
+    public class Test {
+        // put your test here
+    }
+  learner_created: false
+status: Unchecked
+record: -1

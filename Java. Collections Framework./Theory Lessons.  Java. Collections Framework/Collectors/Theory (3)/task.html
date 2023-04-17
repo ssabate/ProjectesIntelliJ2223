@@ -1,0 +1,9 @@
+<h2 style="text-align: center;">Collectors that <i>produce values</i></h2><p>We know one of this methods of Collectors from previous lesson : averagingLong()<br>This method have several similar methods :<br></p><ul><li>averagingInt, averagingLong, averagingDouble;<br><br>as well as these methods, whose names speak for themselves:<br></li><li>summingInt, summingLong, summingDouble; <br></li><li>maxBy, minBy<br></li><li>counting<br><br><b>For example I can show you the following code with short comments:<br></b>This code calculates the sum of ages of all persons over 18</li></ul><pre><code class="language-java">Integer agesSumOfPersonsOlderThan18 = persons.stream().filter(p -&gt; p.age&gt;18).collect(Collectors.summingInt(p-&gt;p.age));</code></pre>But this is only the first way! Here is the second:<pre><code class="language-java">Integer agesSumOfPersonsOlderThan18 = persons.stream().filter(p -&gt; p.age &gt; 18).mapToInt(p -&gt; p.age).sum();</code></pre><br> The situation is similar with other methods <br>max() and maxBy() , counting() and count()...<br>
+
+
+
+<b>By the way! we have a few interesting methods<br></b>﻿
+
+<pre><ul><li>Collectors.joining joins the stream elements for a given delimiter, prefix and suffix.</li></ul></pre><pre><pre><code class="language-java">List&lt;String&gt; list = Arrays.asList("A","B","C","D");
+String result = list.stream().collect(Collectors.joining(",","list:","!"));
+//System.out.println(result); list:A,B,C,D!</code></pre><br></pre><br>

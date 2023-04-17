@@ -1,0 +1,43 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 200
+    length: 45
+    placeholder_text: 0 /*TODO replace 0 with your expected value*/
+    initial_state:
+      length: 45
+      offset: 200
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 11
+  text: |-
+    class Task {
+      public static void main(String[] args) {
+        int x = 0;
+        while (x++ < 10) {
+        }
+        checkForXValue(x);
+
+      }
+
+      private static void checkForXValue(int x) {
+        int expectedXValue = 0 /*TODO replace 0 with your expected value*/;
+
+        System.out.println("Guessed correctly the value of x ? - " + (x == expectedXValue));
+
+      }
+
+    }
+  learner_created: false
+- name: test/Test.java
+  visible: false
+  text: |-
+    public class Test {
+        // put your test here
+    }
+  learner_created: false
+status: Unchecked
+record: -1

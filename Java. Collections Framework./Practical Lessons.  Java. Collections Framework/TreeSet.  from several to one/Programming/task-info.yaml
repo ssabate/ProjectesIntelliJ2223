@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "public static void main(String[] args) throws IOException {\n    BufferedReader\
+    \ reader = new BufferedReader(new InputStreamReader(System.in));\n    String[]\
+    \ sets = reader.readLine().split(\";\"); \n\n    Set<Integer> set1;\n    //your\
+    \ code(add elements to set1 from sets[0])\n\n    Set<Integer> set2;\n    //your\
+    \ code(add elements to set2 from sets[1])\n\n    Set<Integer> set3;\n    //your\
+    \ code(add elements to set3 from sets[2])\n\n\n    Set<Integer> resultTreeSet\
+    \ = unionTreeLargeNumber(set1,set2,set3);\n\n    //print elements of resultTreeSet(using\
+    \ System.out.printLn()) below\n\n}\n\npublic static TreeSet<Integer> unionTreeLargeNumber(Set<Integer>\
+    \ set1,Set<Integer> set2,Set<Integer> set3){\n    TreeSet<Integer> resultSet =\
+    \ new TreeSet<>();\n\n    return resultSet;\n}"
+  learner_created: false
+status: Unchecked
+record: -1
+submission_language: java8

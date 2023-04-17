@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: '"123".stream()'
+- text: "Array.newInstance(int.class,10).stream()"
+- text: "Arrays.asList(1,2,3,4,5).stream()"
+- text: '"123".chars()'
+- text: "Stream.of(\"yo\",\"hi\")"
+- text: Arrays.parallelStream()
+- text: Arrays.stream(array)
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Unchecked
+record: -1
+local_check: false

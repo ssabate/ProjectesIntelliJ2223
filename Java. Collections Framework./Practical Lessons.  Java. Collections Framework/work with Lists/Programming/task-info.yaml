@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "public static void main(String[] args) throws IOException {\n    BufferedReader\
+    \ reader = new BufferedReader(new InputStreamReader(System.in));\n    String allElements\
+    \ = reader.readLine();\n    List<Integer> bigList = createBigList(allElements);\n\
+    \n    ArrayList<Integer> div2list ;\n    ArrayList<Integer> div3list ;\n    ArrayList<Integer>\
+    \ otherlist ;\n\n    //add the necessary elements from bigList to div2list,div3list,otherlist\
+    \ and sort all three lists \n\n    //get result list from createListOfLists\n\
+    \    List<List<Integer>> resultList;\n\n    //call printInLine() for resultList\n\
+    \    printInLine(resultList);\n}\npublic static List<Integer> createBigList(String\
+    \ str){\n    List<Integer> bigList = new ArrayList<Integer>();\n    String[] strarr\
+    \ = str.split(\" \");\n\n   for(String s : strarr){\n   //convert(using Integer.parseInt(s)\
+    \ or Integer.valueOf(s)) and add all elements from srtarr to bigList\n   }\n \
+    \   return bigList;\n}\n\npublic static List<List<Integer>> createListOfLists(List<Integer>\
+    \ div2list, List<Integer> div3list ,List<Integer> otherList){\n    //add all lists\
+    \ like items in resultList(list of lists) and return it, first-div2list, second-div3list,\
+    \ third-otherList\n    return resultList;\n}"
+  learner_created: false
+status: Unchecked
+record: -1
+submission_language: java8

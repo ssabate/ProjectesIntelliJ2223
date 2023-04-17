@@ -1,0 +1,17 @@
+type: code
+custom_name: Programming
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public static SortedMap<String, Integer> wordCount(String[] strings) {
+
+        return null;
+    }
+    public static void printMap(Map<String, Integer> map){
+
+    }
+  learner_created: false
+status: Unchecked
+record: -1
+submission_language: java8

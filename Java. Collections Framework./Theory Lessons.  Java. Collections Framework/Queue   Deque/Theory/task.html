@@ -1,0 +1,18 @@
+<h2 style="text-align: center;">Queue</h2><p><img alt="" src="https://ucarecdn.com/d2690041-1552-4878-b298-138c83003242/-/crop/150x375/33,34/-/preview/" style="float: left;" title="Image: https://ucarecdn.com/d2690041-1552-4878-b298-138c83003242/-/crop/150x375/33,34/-/preview/"><br></p><p>
+
+A collection designed for holding elements prior to processing. Besides basic <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html" rel="nofollow noopener noreferrer"><code>Collection</code></a> operations, queues provide additional insertion, extraction, and inspection operations. Each of these methods exists in two forms: one throws an exception if the operation fails, the other returns a special value (either <code>null</code> or <code>false</code>, depending on the operation). The latter form of the insert operation is designed specifically for use with capacity-restricted <code>Queue</code> implementations; in most implementations, insert operations cannot fail.<br><span style="color: #ff4363;">PriorityQueue </span>is the only direct implementation of the interface Queue (not counting the LinkedList, which is more of a list than a queue).<br>This queue orders elements either by their natural order (using the Comparable interface), or using Comparator interface, obtained in the constructor.<br></p><h2 style="text-align: center;"><i>All methods :</i><br> 
+
+<p style="text-align: center;"><img alt="" class="image-fullsize" src="https://ucarecdn.com/3b2d8015-750f-4d42-8e82-df4cba239406/" title="Image: https://ucarecdn.com/3b2d8015-750f-4d42-8e82-df4cba239406/"></p></h2><p><i>Example:<br></i></p><pre><code class="language-java">﻿Queue queue = new LinkedList();Queue&lt;String&gt; queue1 = new PriorityQueue();
+
+queue1.offer("a");
+queue1.offer("b");
+queue1.offer("c");
+
+String s1 = queue1.poll();//return element from head of queue and remove ﻿it
+String s2 = queue1.peek();//only return element from head of queue
+﻿queue1.forEach(System.out::println);
+//result:
+//b
+//c
+﻿
+</code></pre><h2 style="text-align: center;"><br>JavaDoc:<br><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html" rel="nofollow noopener noreferrer">https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html</a><br><br></h2>

@@ -1,0 +1,60 @@
+<h2 style="text-align: center;">Interface Iterable and Itrerators:</h2><p>
+
+Implementing this interface allows an object to be the target of the "for-each loop" statement.
+
+The <code>Collection</code> interface extends <code>Iterable</code>, so all subtypes of <code>Collection</code> also implement the <code>Iterable</code>interface.
+
+
+The <code>Iterable</code> interface has only one method : iterator();<br><i><span style="color: #66cc66;"><span style="color: #a03881;">this means that you can do the following:<br></span></span></i></p><pre><code class="language-java">List&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+list.add(10);
+list.add(100);
+list.add(1);
+Integer sum = 0;
+
+//foreach loop
+for(Integer item : list){
+ sum+=item
+}
+
+//using iterator,for example, for remove elements from collection. Its good idea..
+Iterator&lt;Integer&gt; iter = list.iterator();
+while(iterator.hasNext()){
+ int item = iterator.next();
+ if(item&gt;10) iterator.remove(item);//this action to delete an item directly from the list
+}
+
+//in JDK8 you can do the following
+list.forEach(i -&gt; System.out.print(i+" "));//we can say that this is the same foreach-loop
+
+//the result of the execution of this code:
+//10 1</code></pre><p>hasNext(),next(),revome() and forEachRemaining() - this is all the methods of iterator.
+*forEachRemaining(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html" rel="nofollow noopener noreferrer">Consumer</a>&lt;? super <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html" rel="nofollow noopener noreferrer">E</a>&gt; action) - Performs the given action for each remaining element until all elements have been processed or the action throws an exception.
+
+<br></p><p><i>in addition to iterator, there are two:</i>
+</p><ul><li><span style="color: #ff4363;">Spliterator </span>- 
+
+An object for traversing and partitioning elements of a source. The source of elements covered by a Spliterator could be, for example, an array, a <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html" rel="nofollow noopener noreferrer"><code>Collection</code></a>, an IO channel, or a generator function.<p>A Spliterator may traverse elements individually (<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Spliterator.html#tryAdvance-java.util.function.Consumer-" rel="nofollow noopener noreferrer"><code>tryAdvance()</code></a>) or sequentially in bulk (<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Spliterator.html#forEachRemaining-java.util.function.Consumer-" rel="nofollow noopener noreferrer"><code>forEachRemaining()</code></a>).</p><p>A Spliterator may also partition off some of its elements (using <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Spliterator.html#trySplit--" rel="nofollow noopener noreferrer"><code>trySplit()</code></a>) as another Spliterator, to be used in possibly-parallel operations. Operations using a Spliterator that cannot split, or does so in a highly imbalanced or inefficient manner, are unlikely to benefit from parallelism. Traversal and splitting exhaust elements; each Spliterator is useful for only a single bulk computation.<br><br>
+
+trySplit()
+
+ divide spliterator into two parts<br></p><pre><code class="language-java">Spliterator&lt;Integer&gt; spliterator = list.spliterator();
+spliterator.forEachRemaining(integer -&gt; {    if (integer%2==0) System.out.println("even the number");
+});//using lambda expressions it becomes very convenient
+
+//trySplit() example;
+List&lt;Integer&gt; lst = new ArrayList&lt;&gt;(Arrays.asList(1,1,1,2,2,2,2));
+
+Spliterator&lt;Integer&gt; split = lst.spliterator();
+split.trySplit().forEachRemaining(System.out::println);//-&gt; 1 1 1
+System.out.println("---------");
+split.forEachRemaining(System.out::println);//2 2 2 2
+</code></pre>
+
+</li><li><span style="color: #ff4363;">ListIterator -  <span style="color: #000;">
+
+An iterator only for Lists that allows the programmer to traverse the list in either direction, modify the list during iteration, and obtain the iterator's current position in the list. A <code>ListIterator</code> has no current element; its <i>cursor position</i> always lies between the element that would be returned by a call to <code>previous()</code> and the element that would be returned by a call to <code>next()</code>.
+
+<br><pre><code class="language-java">ListIterator&lt;Itneger&gt; listIterator = list.listIterator();//only for lists!
+while (listIterator.hasPrevious()){
+    System.out.println(listIterator.previous() +" on "+ listIterator.previousIndex());
+}</code></pre></span></span></li></ul><h2 style="text-align: center;"><span style="color: #ff4363;">JavaDoc Links:</span><br>Iterator:<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html" rel="nofollow noopener noreferrer" title="Link: https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html">https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html</a><br>ListIterator:<a href="https://docs.oracle.com/javase/8/docs/api/java/util/ListIterator.html" rel="nofollow noopener noreferrer">https://docs.oracle.com/javase/8/docs/api/java/util/ListIterator.html</a><br>Spliterator:<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Spliterator.html" rel="nofollow noopener noreferrer">https://docs.oracle.com/javase/8/docs/api/java/util/Spliterator.html</a><br>lambda quick start:<a href="http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html" rel="nofollow noopener noreferrer">http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html</a></h2><p><br></p>

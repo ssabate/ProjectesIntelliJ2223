@@ -1,0 +1,21 @@
+<h2 style="text-align: center;">Now I will tell you most of what you need to know about Sets...<br></h2><p style="text-align: left;"><img alt="" height="347" src="https://ucarecdn.com/5fecea39-0bbc-407d-b1da-e0cad277dfc9/-/crop/2688x2182/144,68/-/preview/" style="float: left;" width="428"><i>Set</i> - the base interface for all types of sets,
+
+A collection that contains no duplicate elements. More formally, sets contain no pair of elements <code>e1</code> and <code>e2</code> such that <code>e1.equals(e2)</code>, and at most one null element. As implied by its name, this interface models the mathematical <i>set</i> abstraction. 
+
+The <code>java.util.Set</code> interface is a subtype of the java.util.Collection interface. Set does not add any new methods, but implements them differently(for example, in order to not store the same elements)<br>Set Example:<br></p><pre><code class="language-java">Set set = new HashSet();
+set.add("cakes");
+set.add("girls");
+System.out.println(set.contains("cakes"));//true</code></pre><br><br><i>Set implementations:<br>
+
+<p>Being a <code>Collection</code> subtype all methods in the <code>Collection</code> interface are also available in the <code>Set</code> interface.<i></i></p><p>Since <code>Set</code> is an interface you need to instantiate a concrete implementation of the interface in order to use it. You can choose between the following <code>Set</code> implementations in the Java Collections API:</p><ul><li>java.util.EnumSet</li><li>java.util.HashSet</li><li>java.util.LinkedHashSet</li><li>java.util.TreeSet<br><br></li></ul></i><p>Each of these <code>Set</code> implementations behaves a little differently with respect to the order of the elements when iterating the <code>Set</code>, and the time (big O notation) it takes to insert and access elements in the sets.
+<br></p><pre><code class="language-java">Set set = new EnumSet();
+Set set1 = new HashSet();
+Set set2 = new LinkedHashSet();
+Set set3 = new TreeSet();</code></pre><h2 style="text-align: center;"><br></h2><h2 style="text-align: center;">what is the difference between all types of Set?
+
+<br></h2><p><code><b><i>HashSet</i></b></code> is backed by a <code>HashMap</code>. It makes no guarantees about the sequence of the elements when you iterate them.</p><p><code><b>LinkedHashSet</b></code> differs from <code>HashSet</code> by guaranteeing that the order of the elements during iteration is the same as the order they were inserted into the <code>LinkedHashSet</code>. Reinserting an element that is already in the <code>LinkedHashSet</code> does not change this order.</p><p><code><b>TreeSet</b></code> also guarantees the order of the elements when iterated, but the order is the sorting order of the elements. In other words, the order in which the elements whould be sorted if you used a <code>Collections.sort()</code> on a <code>List</code> or array containing these elements. 
+
+<i></i></p><p><i>This order is determined either by their natural order (if they implement <code>Comparable</code>), or by a specific <code>Comparator</code> implementation.</i></p><pre><code class="language-java">Collections.sort(collection,(o1,o2)-&gt;o2.compareTo(o1));//descending order
+
+Collection&lt;Person&gt; personsCollection = new ArrayList&lt;&gt;();
+Collection.sort(personsCollection, (Person p1,Person p2) -&gt; p1.getAge().compareTo(p2.getAge())) //sorts in ascending order of age </code></pre><p><b>you can change the order of storage of just applying the method<i> set.descendingSet()</i></b></p><i><p><b></b></p></i>

@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: reverse(List&lt;?&gt; list)
+- text: filter(Predicate&lt;? super T&gt; predicate)
+- text: "addAll(Collection&lt;? super T&gt; c, T... elements)"
+- text: sort(List&lt;T&gt; list)
+- text: forEachOrdered(Consumer&lt;? super T&gt; action)
+- text: eatshit()
+- text: max(Collection&lt;? extends T&gt; coll)
+- text: "parallelSort(byte[] a)"
+- text: "copy(List&lt;? super T&gt; dest, List&lt;? extends T&gt; src)"
+- text: shuffle(List&lt;?&gt; list)
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Unchecked
+record: -1
+local_check: false

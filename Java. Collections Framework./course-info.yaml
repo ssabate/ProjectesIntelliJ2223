@@ -1,0 +1,12 @@
+type: stepik
+title: Java. Collections Framework.
+language: English
+summary: "This course about basic things in the work with java collections. The course\
+  \ includes the functionality introduced in java 8(Stream API + lambda expr., new\
+  \ methods of collections)"
+programming_language: Java
+programming_language_version: 8
+content:
+- Theory Lessons.  Java. Collections Framework
+- Practical Lessons.  Java. Collections Framework
+mode: Study

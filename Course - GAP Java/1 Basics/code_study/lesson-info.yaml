@@ -1,0 +1,8 @@
+content:
+- hello world
+- postfix increment
+- summing non-floating types
+- comparing Integers
+- slow loops
+- accessing private fields
+type: Stepik
