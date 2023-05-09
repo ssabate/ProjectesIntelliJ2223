@@ -7,11 +7,20 @@ public class Ordre {
 
     public static void main(String[] args) {
 
+        Persona p=new Persona();
+
+        p.getLesMeuesCoses().add(new Cosa(12,"llapis"));
+        p.getLesMeuesCoses().add(new Cosa(1,"boli"));
+        p.getLesMeuesCoses().add(new Cosa(2,"bici"));
+        p.getLesMeuesCoses().add(new Cosa(12,"cotxe"));
+        p.getLesMeuesCoses().add(new Cosa(12,"moto"));
+        p.getLesMeuesCoses().add(new Cosa(12,"avio"));
+
         //Ordre natural dels objectes Cosa
         TreeSet<Cosa> col=new TreeSet<>();
 
-        col.add(new Cosa(100, "a"));
-        col.add(new Cosa(25,"c"));
+        col.add(new Cosa(100, "c"));
+        col.add(new Cosa(25,"a"));
         col.add(new Cosa(50,"b"));
 
         for(Cosa c:col){
@@ -24,7 +33,7 @@ public class Ordre {
 
             @Override
             public int compare(Cosa o1, Cosa o2) {
-                return o1.getCamp2().compareToIgnoreCase(o2.getCamp2());
+                return o2.getCamp2().compareToIgnoreCase(o1.getCamp2());
             }
         });
 
@@ -37,6 +46,19 @@ public class Ordre {
             System.out.println(c);
         }
 
+    }
+}
+
+class Persona{
+
+    TreeSet<Cosa> lesMeuesCoses=new TreeSet<>();
+
+    public TreeSet<Cosa> getLesMeuesCoses() {
+        return lesMeuesCoses;
+    }
+
+    public void setLesMeuesCoses(TreeSet<Cosa> lesMeuesCoses) {
+        this.lesMeuesCoses = lesMeuesCoses;
     }
 }
 
@@ -73,7 +95,8 @@ class Cosa implements Comparable<Cosa>{
     //Comparem a this en o
     @Override
     public int compareTo(Cosa o) {
-        return this.camp1-o.camp1;
+        return this.camp2.compareTo(o.camp2);
+        //return o.camp1-this.camp1;
     }
 
     @Override
