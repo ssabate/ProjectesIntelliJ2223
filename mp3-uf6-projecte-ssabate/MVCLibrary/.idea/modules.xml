@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MVCLibrary.iml" filepath="$PROJECT_DIR$/MVCLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MVCLibrary.iml" filepath="$PROJECT_DIR$/.idea/MVCLibrary.iml" />
     </modules>
   </component>
 </project>

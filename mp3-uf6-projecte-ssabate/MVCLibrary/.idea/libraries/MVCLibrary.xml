@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="MVCLibrary">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/MVCLibrary.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
