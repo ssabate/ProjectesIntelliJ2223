@@ -23,13 +23,16 @@ public class MVCGUI {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws ExcepcioDAO {
+    public static void main(String[] args) {
 
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 try {
                     createAndShowGUI();
-                } catch (Exception e) {
+                } catch (ExcepcioDAO e) {
+                    JOptionPane.showMessageDialog(null,e.getMessage());
+                    System.exit(1);
+                }catch (Exception e) {
                     e.printStackTrace();
                 }
             }
