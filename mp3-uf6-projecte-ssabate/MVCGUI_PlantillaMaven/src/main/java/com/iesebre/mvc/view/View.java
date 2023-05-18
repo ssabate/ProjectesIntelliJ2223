@@ -6,8 +6,8 @@ public class View extends JFrame {
     private JPanel panel;
     private JButton button1;
     private JTable table1;
-    private JTextField textField1;
-    private JTextField textField2;
+    private JTextField campId;
+    private JTextField campNom;
 
     public View(){
         setContentPane(panel);
@@ -23,5 +23,13 @@ public class View extends JFrame {
 
     public JButton getButton1() {
         return button1;
+    }
+
+    public JTextField getCampId() {
+        return campId;
+    }
+
+    public JTextField getCampNom() {
+        return campNom;
     }
 }

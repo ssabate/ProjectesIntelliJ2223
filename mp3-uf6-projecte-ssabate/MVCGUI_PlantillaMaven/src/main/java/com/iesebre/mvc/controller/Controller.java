@@ -43,11 +43,20 @@ public class Controller {
         //com.iesebre.mvc.view.setVisible(true);
         loadTable(model.getAll(), view.getTable1(), Departament.class);
         
-        //Codi que assigna els listeners als components de la vista
+        //Codi que assigna els listeners als components de la vista --> botó insertar
         view.getButton1().addActionListener(
                 (ActionEvent a)->{
-                    modelVell.incNumClics();
-                    JOptionPane.showMessageDialog(null,"Botó clicat "+ modelVell.getNumClics()+" vegades!!");
+
+                    try {
+                        model.save(new Departament(Integer.valueOf(view.getCampId().getText()), view.getCampNom().getText()));
+                        loadTable(model.getAll(), view.getTable1(), Departament.class);
+                    }catch(NumberFormatException e){
+                        JOptionPane.showMessageDialog(view,"Has de posar un número correcte al com id!!");
+                    }
+                    catch (ExcepcioDAO e) {
+                        throw new RuntimeException(e);
+                    }
+
                 }
         );
     }
